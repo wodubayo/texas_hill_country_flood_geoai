@@ -121,6 +121,13 @@ def main() -> int:
                 {"color": "0,0,0,0", "outline_color": colour, "outline_width": "1.0"}))
             layer.setDisplayExpression("\"context_group\" || ': ' || \"dist_guadalupe_m\" || ' m to Guadalupe'")
             add(layer, review, visible)
+        floodwater = src / "floodwater_beyond_normal.geojson"
+        if floodwater.is_file():  # split_water_hotspots.py: water-group darkening outside normal water
+            layer = QgsVectorLayer(str(floodwater), "Both tracks - FLOODWATER beyond normal water", "ogr")
+            layer.renderer().setSymbol(QgsFillSymbol.createSimple(
+                {"color": "255,140,0,90", "outline_color": "255,140,0", "outline_width": "0.8"}))
+            layer.setDisplayExpression("\"dominant_nlcd\" || ', ' || \"area_ha\" || ' ha, ' || \"dist_guadalupe_m\" || ' m to Guadalupe'")
+            review.insertLayer(1, project.addMapLayer(layer, False))
     else:
         for filename, label, colour, visible in (
             ("hotspots_cross_track.geojson", "Darkening flagged on BOTH tracks", "0,255,255", True),
@@ -151,6 +158,12 @@ def main() -> int:
             layer.renderer().setSymbol(QgsFillSymbol.createSimple(
                 {"color": "0,0,0,0", "outline_color": "0,90,200", "outline_width": "0.4"}))
         add(layer, hydro, visible)
+    if (src / "normal_water_mask.tif").is_file():
+        layer = raster(src / "normal_water_mask.tif", "Normal water mask (NHD + NLCD, used to split cyan)")
+        layer.setRenderer(QgsPalettedRasterRenderer(
+            layer.dataProvider(), 1, [QgsPalettedRasterRenderer.Class(1, QColor(0, 120, 255), "normal water")]))
+        layer.setOpacity(0.45)
+        add(layer, hydro, False, identifiable=False)
 
     change = root.addGroup("Change (VH)")
     for a, b, visible in (("pre", "post", True), ("control", "pre", False)):

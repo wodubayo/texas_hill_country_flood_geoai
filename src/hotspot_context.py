@@ -65,11 +65,11 @@ def check_zip(path: Path) -> None:
         raise RuntimeError(f"Expected a ZIP archive: {path.read_bytes()[:200]!r}")
 
 
-def fetch_nhd():
+def fetch_nhd(layers=("NHDFlowline", "NHDWaterbody")):
     """NHD High Resolution HU4 GeoPackages (staged bulk products) clipped to the AOI bounding box.
 
     The NHD MapServer query endpoint was too slow (2-4 min per 1000-feature page) for this AOI.
-    Returns (flowlines, waterbodies) as 2D GeoDataFrames in EPSG:4326.
+    Returns one 2D GeoDataFrame in EPSG:4326 per requested layer, in order (default: flowlines, waterbodies).
     """
     import zipfile
 
@@ -79,7 +79,7 @@ def fetch_nhd():
     from shapely.geometry import box
 
     w, s, e, n = aoi_bounds()
-    frames = {"NHDFlowline": [], "NHDWaterbody": []}
+    frames = {layer: [] for layer in layers}
     for hu4 in NHD_HU4:
         url = f"{NHD_STAGED}/NHD_H_{hu4}_HU4_GPKG.zip"
         zip_path = fetch(url, RAW / "nhd" / f"NHD_H_{hu4}_HU4_GPKG.zip", check=check_zip,
