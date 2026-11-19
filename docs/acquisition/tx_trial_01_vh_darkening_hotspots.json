@@ -1,0 +1,302 @@
+{
+  "generated_utc": "2026-11-17T19:30:54.573456+00:00",
+  "run_id": "tx_trial_01",
+  "status": "exploratory review aid; not a flood map; parameters are uncalibrated review settings",
+  "parameters": {
+    "smooth_px": 5,
+    "drop_db": -3.0,
+    "stable_db": 1.5,
+    "min_pixels": 50
+  },
+  "flagged_pixels": 77060,
+  "clusters_kept": 182,
+  "control_to_pre_pixels_at_same_drop": 1761496,
+  "note": "control_to_pre_pixels_at_same_drop counts pixels that darkened by the same amount with no flood in between (rough false-change reference).",
+  "top_clusters": [
+    {
+      "pixels": 737,
+      "area_ha": 7.37,
+      "length_m": 1170,
+      "median_change_db": -4.71,
+      "median_pre_db": -18.05,
+      "median_post_db": -23.27,
+      "centroid_utm14n": [
+        476917,
+        3326649
+      ],
+      "centroid_lonlat": [
+        -99.2395,
+        30.07075
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 0.8,
+      "rank": 1
+    },
+    {
+      "pixels": 682,
+      "area_ha": 6.82,
+      "length_m": 620,
+      "median_change_db": -5.81,
+      "median_pre_db": -18.75,
+      "median_post_db": -24.66,
+      "centroid_utm14n": [
+        491488,
+        3314657
+      ],
+      "centroid_lonlat": [
+        -99.08822,
+        29.96271
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.5,
+      "rank": 2
+    },
+    {
+      "pixels": 441,
+      "area_ha": 4.41,
+      "length_m": 390,
+      "median_change_db": -5.88,
+      "median_pre_db": -17.09,
+      "median_post_db": -24.41,
+      "centroid_utm14n": [
+        469120,
+        3287858
+      ],
+      "centroid_lonlat": [
+        -99.31928,
+        29.7205
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 36.9,
+      "rank": 3
+    },
+    {
+      "pixels": 407,
+      "area_ha": 4.07,
+      "length_m": 430,
+      "median_change_db": -3.63,
+      "median_pre_db": -15.8,
+      "median_post_db": -19.49,
+      "centroid_utm14n": [
+        500496,
+        3285029
+      ],
+      "centroid_lonlat": [
+        -98.99487,
+        29.69535
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 27.8,
+      "rank": 4
+    },
+    {
+      "pixels": 391,
+      "area_ha": 3.91,
+      "length_m": 340,
+      "median_change_db": -6.15,
+      "median_pre_db": -18.73,
+      "median_post_db": -25.75,
+      "centroid_utm14n": [
+        484490,
+        3333767
+      ],
+      "centroid_lonlat": [
+        -99.16103,
+        30.13511
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 9.7,
+      "rank": 5
+    },
+    {
+      "pixels": 360,
+      "area_ha": 3.6,
+      "length_m": 360,
+      "median_change_db": -3.95,
+      "median_pre_db": -17.03,
+      "median_post_db": -20.89,
+      "centroid_utm14n": [
+        499196,
+        3285762
+      ],
+      "centroid_lonlat": [
+        -99.00831,
+        29.70197
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 27.0,
+      "rank": 6
+    },
+    {
+      "pixels": 323,
+      "area_ha": 3.23,
+      "length_m": 440,
+      "median_change_db": -5.3,
+      "median_pre_db": -17.13,
+      "median_post_db": -22.43,
+      "centroid_utm14n": [
+        507442,
+        3313065
+      ],
+      "centroid_lonlat": [
+        -98.92288,
+        29.94835
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 2.8,
+      "rank": 7
+    },
+    {
+      "pixels": 294,
+      "area_ha": 2.94,
+      "length_m": 300,
+      "median_change_db": -3.86,
+      "median_pre_db": -16.08,
+      "median_post_db": -20.62,
+      "centroid_utm14n": [
+        498299,
+        3287126
+      ],
+      "centroid_lonlat": [
+        -99.01759,
+        29.71428
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 25.5,
+      "rank": 8
+    },
+    {
+      "pixels": 287,
+      "area_ha": 2.87,
+      "length_m": 590,
+      "median_change_db": -4.88,
+      "median_pre_db": -14.82,
+      "median_post_db": -19.76,
+      "centroid_utm14n": [
+        417402,
+        3341563
+      ],
+      "centroid_lonlat": [
+        -99.85814,
+        30.20275
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 52.6,
+      "rank": 9
+    },
+    {
+      "pixels": 263,
+      "area_ha": 2.63,
+      "length_m": 470,
+      "median_change_db": -4.37,
+      "median_pre_db": -19.3,
+      "median_post_db": -23.92,
+      "centroid_utm14n": [
+        480452,
+        3326504
+      ],
+      "centroid_lonlat": [
+        -99.20282,
+        30.06951
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 3.3,
+      "rank": 10
+    },
+    {
+      "pixels": 260,
+      "area_ha": 2.6,
+      "length_m": 360,
+      "median_change_db": -4.01,
+      "median_pre_db": -16.57,
+      "median_post_db": -20.58,
+      "centroid_utm14n": [
+        499034,
+        3286007
+      ],
+      "centroid_lonlat": [
+        -99.00999,
+        29.70418
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.7,
+      "rank": 11
+    },
+    {
+      "pixels": 258,
+      "area_ha": 2.58,
+      "length_m": 280,
+      "median_change_db": -3.89,
+      "median_pre_db": -17.23,
+      "median_post_db": -21.45,
+      "centroid_utm14n": [
+        498789,
+        3286027
+      ],
+      "centroid_lonlat": [
+        -99.01252,
+        29.70436
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.7,
+      "rank": 12
+    },
+    {
+      "pixels": 247,
+      "area_ha": 2.47,
+      "length_m": 370,
+      "median_change_db": -4.67,
+      "median_pre_db": -17.24,
+      "median_post_db": -22.13,
+      "centroid_utm14n": [
+        497929,
+        3312278
+      ],
+      "centroid_lonlat": [
+        -99.02146,
+        29.94127
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 1.4,
+      "rank": 13
+    },
+    {
+      "pixels": 242,
+      "area_ha": 2.42,
+      "length_m": 280,
+      "median_change_db": -4.03,
+      "median_pre_db": -16.51,
+      "median_post_db": -20.71,
+      "centroid_utm14n": [
+        499798,
+        3285552
+      ],
+      "centroid_lonlat": [
+        -99.00209,
+        29.70007
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 27.2,
+      "rank": 14
+    },
+    {
+      "pixels": 240,
+      "area_ha": 2.4,
+      "length_m": 570,
+      "median_change_db": -4.67,
+      "median_pre_db": -13.83,
+      "median_post_db": -18.69,
+      "centroid_utm14n": [
+        418032,
+        3340551
+      ],
+      "centroid_lonlat": [
+        -99.85151,
+        30.19366
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 51.7,
+      "rank": 15
+    }
+  ]
+}

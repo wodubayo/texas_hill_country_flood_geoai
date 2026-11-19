@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Credentials (template config/credentials.example.json is tracked)
+config/credentials.json
+_netrc
+.netrc
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large source and derived geospatial data
+data/raw/**
+data/interim/**
+data/processed/**
+outputs/**
+models/**
+*.zip
+*.tif
+*.tiff
+*.gpkg
+*.part
+
+# Keep acquisition inventories and review registers versioned
+!docs/acquisition/*.csv
+!docs/validation/*.csv
+
+# OS
+Thumbs.db
+.DS_Store

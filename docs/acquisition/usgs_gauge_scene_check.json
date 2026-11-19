@@ -1,0 +1,1569 @@
+{
+  "generated_utc": "2026-11-17T20:01:50.994745+00:00",
+  "event_id": "TX_HILL_COUNTRY_2025_07",
+  "scene_times_utc": {
+    "ro107:control": "2025-06-17T00:35:13+00:00",
+    "ro107:pre": "2025-06-29T00:35:12+00:00",
+    "ro107:post": "2025-07-11T00:35:12+00:00",
+    "ro005:control": "2025-06-22T00:43:26+00:00",
+    "ro005:pre": "2025-07-04T00:43:25+00:00",
+    "ro005:post": "2025-07-16T00:43:24+00:00"
+  },
+  "match_tolerance_minutes": 60.0,
+  "definitions": {
+    "pre_event_median": "median of all values before the earliest pre scene time in the search window",
+    "recession_fraction": "(peak - value at post scene) / (peak - pre_event_median); 1.0 = fully back to baseline"
+  },
+  "gauges": [
+    {
+      "site": "08152900",
+      "name": "Pedernales Rv nr Fredericksburg, TX",
+      "parameter": "discharge_cfs",
+      "lon": -98.8697812,
+      "lat": 30.22048584,
+      "points": 12961,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 1.85,
+      "peak": 9030.0,
+      "peak_local": "2025-07-04T18:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.1,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 12.0,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": 6.49,
+          "above_pre_event_median": 10.15
+        },
+        "ro107:pre": {
+          "value": 0.25,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": 0.14,
+          "above_pre_event_median": -1.6
+        },
+        "ro107:post": {
+          "value": 57.1,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": 30.86,
+          "above_pre_event_median": 55.25,
+          "recession_fraction": 0.994
+        },
+        "ro005:control": {
+          "value": 1.98,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.07,
+          "above_pre_event_median": 0.13
+        },
+        "ro005:pre": {
+          "value": 0.19,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.1,
+          "above_pre_event_median": -1.66
+        },
+        "ro005:post": {
+          "value": 78.5,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 42.43,
+          "above_pre_event_median": 76.65,
+          "recession_fraction": 0.992
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08152900",
+      "name": "Pedernales Rv nr Fredericksburg, TX",
+      "parameter": "gage_height_ft",
+      "lon": -98.8697812,
+      "lat": 30.22048584,
+      "points": 12961,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 5.35,
+      "peak": 14.8,
+      "peak_local": "2025-07-04T18:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.1,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 5.79,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.44
+        },
+        "ro107:pre": {
+          "value": 5.06,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.29
+        },
+        "ro107:post": {
+          "value": 6.61,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.26,
+          "recession_fraction": 0.867
+        },
+        "ro005:control": {
+          "value": 5.36,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro005:pre": {
+          "value": 5.04,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.31
+        },
+        "ro005:post": {
+          "value": 6.85,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.5,
+          "recession_fraction": 0.841
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08165300",
+      "name": "N Fk Guadalupe Rv nr Hunt, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.3870175,
+      "lat": 30.06410028,
+      "points": 4321,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 5.07,
+      "peak": 58600.0,
+      "peak_local": "2025-07-04T05:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 6.28,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 1.24,
+          "above_pre_event_median": 1.21
+        },
+        "ro107:pre": {
+          "value": 2.81,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.55,
+          "above_pre_event_median": -2.26
+        },
+        "ro107:post": {
+          "value": 52.8,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 10.41,
+          "above_pre_event_median": 47.73,
+          "recession_fraction": 0.999
+        },
+        "ro005:control": {
+          "value": 5.46,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.08,
+          "above_pre_event_median": 0.39
+        },
+        "ro005:pre": {
+          "value": 9.66,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.91,
+          "above_pre_event_median": 4.59
+        },
+        "ro005:post": {
+          "value": 268.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 52.86,
+          "above_pre_event_median": 262.93,
+          "recession_fraction": 0.996
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08165300",
+      "name": "N Fk Guadalupe Rv nr Hunt, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.3870175,
+      "lat": 30.06410028,
+      "points": 4321,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 1.39,
+      "peak": 21.2,
+      "peak_local": "2025-07-04T05:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 1.42,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.03
+        },
+        "ro107:pre": {
+          "value": 1.32,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.07
+        },
+        "ro107:post": {
+          "value": 1.91,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.52,
+          "recession_fraction": 0.974
+        },
+        "ro005:control": {
+          "value": 1.4,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro005:pre": {
+          "value": 1.49,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.1
+        },
+        "ro005:post": {
+          "value": 2.86,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.47,
+          "recession_fraction": 0.926
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08165500",
+      "name": "Guadalupe Rv at Hunt, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.3217122,
+      "lat": 30.06993074,
+      "points": 12646,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 5.5,
+      "peak": 234000.0,
+      "peak_local": "2025-07-04T05:10:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 1.9,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 6.28,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": 1.14,
+          "above_pre_event_median": 0.78
+        },
+        "ro107:pre": {
+          "value": 5.03,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": 0.91,
+          "above_pre_event_median": -0.47
+        },
+        "ro107:post": {
+          "value": 194.0,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": 35.27,
+          "above_pre_event_median": 188.5,
+          "recession_fraction": 0.999
+        },
+        "ro005:control": {
+          "value": 5.5,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.0,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 7.14,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.3,
+          "above_pre_event_median": 1.64
+        },
+        "ro005:post": {
+          "value": 909.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 165.27,
+          "above_pre_event_median": 903.5,
+          "recession_fraction": 0.996
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08165500",
+      "name": "Guadalupe Rv at Hunt, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.3217122,
+      "lat": 30.06993074,
+      "points": 12418,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 7.58,
+      "peak": 37.52,
+      "peak_local": "2025-07-04T05:10:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 34.4,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 7.61,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.03
+        },
+        "ro107:pre": {
+          "value": 7.56,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.02
+        },
+        "ro107:post": {
+          "value": 8.13,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.55,
+          "recession_fraction": 0.982
+        },
+        "ro005:control": {
+          "value": 7.58,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 7.64,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.06
+        },
+        "ro005:post": {
+          "value": 9.26,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.68,
+          "recession_fraction": 0.944
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166000",
+      "name": "Johnson Ck nr Ingram, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.2831006,
+      "lat": 30.10020707,
+      "points": 11260,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 6.27,
+      "peak": 19200.0,
+      "peak_local": "2025-07-04T06:05:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 8.18,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": 1.3,
+          "above_pre_event_median": 1.91
+        },
+        "ro107:pre": {
+          "value": 5.14,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": 0.82,
+          "above_pre_event_median": -1.13
+        },
+        "ro107:post": {
+          "value": 40.4,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": 6.44,
+          "above_pre_event_median": 34.13,
+          "recession_fraction": 0.998
+        },
+        "ro005:control": {
+          "value": 5.98,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.95,
+          "above_pre_event_median": -0.29
+        },
+        "ro005:pre": {
+          "value": 6.57,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.05,
+          "above_pre_event_median": 0.3
+        },
+        "ro005:post": {
+          "value": 837.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 133.49,
+          "above_pre_event_median": 830.73,
+          "recession_fraction": 0.957
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166000",
+      "name": "Johnson Ck nr Ingram, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.2831006,
+      "lat": 30.10020707,
+      "points": 10414,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": -0.52,
+      "peak": 12.54,
+      "peak_local": "2025-07-04T06:05:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 75.7,
+      "at_scenes": {
+        "ro107:control": {
+          "value": -0.46,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.06
+        },
+        "ro107:pre": {
+          "value": -0.55,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.03
+        },
+        "ro107:post": null,
+        "ro005:control": {
+          "value": -0.53,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.01
+        },
+        "ro005:pre": {
+          "value": -0.51,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro005:post": {
+          "value": 3.61,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 4.13,
+          "recession_fraction": 0.684
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166140",
+      "name": "Guadalupe Rv abv Bear Ck at Kerrville, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.1953454,
+      "lat": 30.06965617,
+      "points": 5907,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 2.69,
+      "peak": 398.0,
+      "peak_local": "2025-07-05T17:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 169.6,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 24.6,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 9.14,
+          "above_pre_event_median": 21.91
+        },
+        "ro107:pre": {
+          "value": 1.0,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.37,
+          "above_pre_event_median": -1.69
+        },
+        "ro107:post": {
+          "value": 318.0,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": 118.22,
+          "above_pre_event_median": 315.31,
+          "recession_fraction": 0.202
+        },
+        "ro005:control": {
+          "value": 2.69,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.0,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 1.12,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.42,
+          "above_pre_event_median": -1.57
+        },
+        "ro005:post": null
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166140",
+      "name": "Guadalupe Rv abv Bear Ck at Kerrville, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.1953454,
+      "lat": 30.06965617,
+      "points": 8578,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 2.35,
+      "peak": 34.4,
+      "peak_local": "2025-07-04T06:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 2.54,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.19
+        },
+        "ro107:pre": {
+          "value": 2.26,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.09
+        },
+        "ro107:post": {
+          "value": 3.45,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.1,
+          "recession_fraction": 0.966
+        },
+        "ro005:control": {
+          "value": 2.35,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 2.27,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.08
+        },
+        "ro005:post": {
+          "value": 5.11,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 2.76,
+          "recession_fraction": 0.914
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166200",
+      "name": "Guadalupe Rv at Kerrville, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.163375,
+      "lat": 30.053266,
+      "points": 5141,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 8.77,
+      "peak": 235000.0,
+      "peak_local": "2025-07-04T06:30:00-05:00",
+      "provisional": true,
+      "longest_gap_hours": 1.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 25.6,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 2.92,
+          "above_pre_event_median": 16.83
+        },
+        "ro107:pre": {
+          "value": 7.11,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.81,
+          "above_pre_event_median": -1.66
+        },
+        "ro107:post": {
+          "value": 209.0,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 23.83,
+          "above_pre_event_median": 200.23,
+          "recession_fraction": 0.999
+        },
+        "ro005:control": {
+          "value": 3.26,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.37,
+          "above_pre_event_median": -5.51
+        },
+        "ro005:pre": {
+          "value": 2.64,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.3,
+          "above_pre_event_median": -6.13
+        },
+        "ro005:post": {
+          "value": 1990.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 226.91,
+          "above_pre_event_median": 1981.23,
+          "recession_fraction": 0.992
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166200",
+      "name": "Guadalupe Rv at Kerrville, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.163375,
+      "lat": 30.053266,
+      "points": 5141,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 0.73,
+      "peak": 34.29,
+      "peak_local": "2025-07-04T06:30:00-05:00",
+      "provisional": true,
+      "longest_gap_hours": 1.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 1.08,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.35
+        },
+        "ro107:pre": {
+          "value": 0.66,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.07
+        },
+        "ro107:post": {
+          "value": 2.05,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.32,
+          "recession_fraction": 0.961
+        },
+        "ro005:control": {
+          "value": 0.41,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.32
+        },
+        "ro005:pre": {
+          "value": 0.35,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.38
+        },
+        "ro005:post": {
+          "value": 3.98,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 3.25,
+          "recession_fraction": 0.903
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166250",
+      "name": "Guadalupe Rv nr Center Point, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.11,
+      "lat": 29.98777778,
+      "points": 3321,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 9.7,
+      "peak": 595.0,
+      "peak_local": "2025-07-10T06:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 143.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 29.1,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 3.0,
+          "above_pre_event_median": 19.4
+        },
+        "ro107:pre": {
+          "value": 1.51,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.16,
+          "above_pre_event_median": -8.19
+        },
+        "ro107:post": {
+          "value": 509.0,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 52.47,
+          "above_pre_event_median": 499.3,
+          "recession_fraction": 0.147
+        },
+        "ro005:control": {
+          "value": 9.26,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.95,
+          "above_pre_event_median": -0.44
+        },
+        "ro005:pre": {
+          "value": 3.4,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.35,
+          "above_pre_event_median": -6.3
+        },
+        "ro005:post": null
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166250",
+      "name": "Guadalupe Rv nr Center Point, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.11,
+      "lat": 29.98777778,
+      "points": 3999,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 3.13,
+      "peak": 39.61,
+      "peak_local": "2025-07-04T07:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 79.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 3.41,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.28
+        },
+        "ro107:pre": {
+          "value": 2.9,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.23
+        },
+        "ro107:post": {
+          "value": 6.2,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 3.07,
+          "recession_fraction": 0.916
+        },
+        "ro005:control": {
+          "value": 3.12,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.01
+        },
+        "ro005:pre": {
+          "value": 2.97,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.16
+        },
+        "ro005:post": {
+          "value": 8.44,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 5.31,
+          "recession_fraction": 0.854
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08166700",
+      "name": "Cypress Ck at Saur Farm nr Comfort, TX",
+      "parameter": "gage_height_ft",
+      "lon": -98.9741361,
+      "lat": 30.0114361,
+      "points": 5134,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 4.95,
+      "peak": 9.56,
+      "peak_local": "2025-07-13T12:15:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 4.97,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.02
+        },
+        "ro107:pre": {
+          "value": 4.9,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.05
+        },
+        "ro107:post": {
+          "value": 5.17,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.22,
+          "recession_fraction": 0.952
+        },
+        "ro005:control": {
+          "value": 4.94,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.01
+        },
+        "ro005:pre": {
+          "value": 4.9,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.05
+        },
+        "ro005:post": {
+          "value": 5.69,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.74,
+          "recession_fraction": 0.839
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08167000",
+      "name": "Guadalupe Rv at Comfort, TX",
+      "parameter": "discharge_cfs",
+      "lon": -98.8971667,
+      "lat": 29.96523889,
+      "points": 5149,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 76.1,
+      "peak": 142000.0,
+      "peak_local": "2025-07-04T10:45:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 95.2,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 1.25,
+          "above_pre_event_median": 19.1
+        },
+        "ro107:pre": {
+          "value": 52.0,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.68,
+          "above_pre_event_median": -24.1
+        },
+        "ro107:post": {
+          "value": 445.0,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 5.85,
+          "above_pre_event_median": 368.9,
+          "recession_fraction": 0.997
+        },
+        "ro005:control": {
+          "value": 77.3,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.02,
+          "above_pre_event_median": 1.2
+        },
+        "ro005:pre": {
+          "value": 45.7,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.6,
+          "above_pre_event_median": -30.4
+        },
+        "ro005:post": {
+          "value": 2790.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 36.66,
+          "above_pre_event_median": 2713.9,
+          "recession_fraction": 0.981
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08167000",
+      "name": "Guadalupe Rv at Comfort, TX",
+      "parameter": "gage_height_ft",
+      "lon": -98.8971667,
+      "lat": 29.96523889,
+      "points": 5149,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 3.145,
+      "peak": 34.76,
+      "peak_local": "2025-07-04T10:45:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 3.25,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.1
+        },
+        "ro107:pre": {
+          "value": 2.98,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.17
+        },
+        "ro107:post": {
+          "value": 3.9,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.75,
+          "recession_fraction": 0.976
+        },
+        "ro005:control": {
+          "value": 3.15,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 2.93,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.21
+        },
+        "ro005:post": {
+          "value": 8.01,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 4.87,
+          "recession_fraction": 0.846
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178861",
+      "name": "N Prong Medina Rv at Brewington Ck nr Medina, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.3488333,
+      "lat": 29.87533333,
+      "points": 12953,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 2.72,
+      "peak": 11.82,
+      "peak_local": "2025-07-04T05:25:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.3,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 3.38,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.66
+        },
+        "ro107:pre": {
+          "value": 2.72,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro107:post": {
+          "value": 3.85,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.13,
+          "recession_fraction": 0.876
+        },
+        "ro005:control": {
+          "value": 2.72,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 2.72,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:post": {
+          "value": 6.09,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 3.37,
+          "recession_fraction": 0.63
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178871",
+      "name": "W Prong Medina Rv at Carpenter Ck Rd nr Medina, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.3792778,
+      "lat": 29.78013889,
+      "points": 12958,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 1.33,
+      "peak": 3.31,
+      "peak_local": "2025-07-04T12:25:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 1.34,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro107:pre": {
+          "value": 1.33,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro107:post": {
+          "value": 1.32,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.01,
+          "recession_fraction": 1.005
+        },
+        "ro005:control": {
+          "value": 1.33,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 1.34,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro005:post": {
+          "value": 1.51,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.18,
+          "recession_fraction": 0.909
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "0817887350",
+      "name": "Medina Rv at Patterson Rd at Medina, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.2485944,
+      "lat": 29.79389167,
+      "points": 12759,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 7.96,
+      "peak": 2440.0,
+      "peak_local": "2025-07-04T23:50:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 15.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 8.1,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": 1.02,
+          "above_pre_event_median": 0.14
+        },
+        "ro107:pre": {
+          "value": 7.78,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": 0.98,
+          "above_pre_event_median": -0.18
+        },
+        "ro107:post": {
+          "value": 64.7,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": 8.13,
+          "above_pre_event_median": 56.74,
+          "recession_fraction": 0.977
+        },
+        "ro005:control": {
+          "value": 7.85,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.99,
+          "above_pre_event_median": -0.11
+        },
+        "ro005:pre": {
+          "value": 7.96,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.0,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:post": {
+          "value": 621.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 78.02,
+          "above_pre_event_median": 613.04,
+          "recession_fraction": 0.748
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "0817887350",
+      "name": "Medina Rv at Patterson Rd at Medina, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.2485944,
+      "lat": 29.79389167,
+      "points": 12948,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 3.92,
+      "peak": 15.76,
+      "peak_local": "2025-07-04T13:25:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.9,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 3.95,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.03
+        },
+        "ro107:pre": {
+          "value": 3.87,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.05
+        },
+        "ro107:post": {
+          "value": 4.84,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.92,
+          "recession_fraction": 0.922
+        },
+        "ro005:control": {
+          "value": 3.89,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.03
+        },
+        "ro005:pre": {
+          "value": 3.92,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:post": {
+          "value": 6.43,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 2.51,
+          "recession_fraction": 0.788
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178880",
+      "name": "Medina Rv at Bandera, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.070035,
+      "lat": 29.72383537,
+      "points": 4303,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 5.47,
+      "peak": 12500.0,
+      "peak_local": "2025-07-04T19:15:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 1.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 9.91,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 1.81,
+          "above_pre_event_median": 4.44
+        },
+        "ro107:pre": {
+          "value": 2.31,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.42,
+          "above_pre_event_median": -3.16
+        },
+        "ro107:post": {
+          "value": 62.3,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 11.39,
+          "above_pre_event_median": 56.83,
+          "recession_fraction": 0.995
+        },
+        "ro005:control": {
+          "value": 5.47,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.0,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 5.81,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.06,
+          "above_pre_event_median": 0.34
+        },
+        "ro005:post": {
+          "value": 571.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 104.39,
+          "above_pre_event_median": 565.53,
+          "recession_fraction": 0.955
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178880",
+      "name": "Medina Rv at Bandera, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.070035,
+      "lat": 29.72383537,
+      "points": 4303,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 3.21,
+      "peak": 16.86,
+      "peak_local": "2025-07-04T19:15:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 1.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 3.33,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.12
+        },
+        "ro107:pre": {
+          "value": 3.1,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.11
+        },
+        "ro107:post": {
+          "value": 4.52,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 1.31,
+          "recession_fraction": 0.904
+        },
+        "ro005:control": {
+          "value": 3.21,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.0
+        },
+        "ro005:pre": {
+          "value": 3.22,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.01
+        },
+        "ro005:post": {
+          "value": 6.43,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 3.22,
+          "recession_fraction": 0.764
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178980",
+      "name": "Medina Rv abv English Crsg nr Pipe Creek, TX",
+      "parameter": "discharge_cfs",
+      "lon": -98.9793056,
+      "lat": 29.69438889,
+      "points": 4321,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 10.5,
+      "peak": 7880.0,
+      "peak_local": "2025-07-04T22:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 27.5,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 2.62,
+          "above_pre_event_median": 17.0
+        },
+        "ro107:pre": {
+          "value": 3.57,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.34,
+          "above_pre_event_median": -6.93
+        },
+        "ro107:post": {
+          "value": 95.6,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 9.1,
+          "above_pre_event_median": 85.1,
+          "recession_fraction": 0.989
+        },
+        "ro005:control": {
+          "value": 11.6,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 1.1,
+          "above_pre_event_median": 1.1
+        },
+        "ro005:pre": {
+          "value": 6.07,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.58,
+          "above_pre_event_median": -4.43
+        },
+        "ro005:post": {
+          "value": 605.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 57.62,
+          "above_pre_event_median": 594.5,
+          "recession_fraction": 0.924
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08178980",
+      "name": "Medina Rv abv English Crsg nr Pipe Creek, TX",
+      "parameter": "gage_height_ft",
+      "lon": -98.9793056,
+      "lat": 29.69438889,
+      "points": 4321,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 4.78,
+      "peak": 15.82,
+      "peak_local": "2025-07-04T22:00:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 0.2,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 5.02,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.24
+        },
+        "ro107:pre": {
+          "value": 4.63,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.15
+        },
+        "ro107:post": {
+          "value": 5.66,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.88,
+          "recession_fraction": 0.92
+        },
+        "ro005:control": {
+          "value": 4.8,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.02
+        },
+        "ro005:pre": {
+          "value": 4.69,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.09
+        },
+        "ro005:post": {
+          "value": 7.41,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 2.63,
+          "recession_fraction": 0.762
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08194840",
+      "name": "Frio Rv at Leakey, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.75345,
+      "lat": 29.72298333,
+      "points": 25910,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T23:00:00+00:00",
+      "pre_event_median": 5.825,
+      "peak": 11.91,
+      "peak_local": "2025-07-14T15:35:00-05:00",
+      "provisional": true,
+      "longest_gap_hours": 0.3,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 2.37,
+          "time_local": "2025-06-16T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -3.46
+        },
+        "ro107:pre": {
+          "value": 2.3,
+          "time_local": "2025-06-28T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -3.53
+        },
+        "ro107:post": {
+          "value": 3.04,
+          "time_local": "2025-07-10T19:35:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -2.79,
+          "recession_fraction": 1.458
+        },
+        "ro005:control": {
+          "value": 2.33,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -3.5
+        },
+        "ro005:pre": {
+          "value": 2.35,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -3.48
+        },
+        "ro005:post": {
+          "value": 6.33,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.5,
+          "recession_fraction": 0.917
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08197936",
+      "name": "Sabinal Rv bl Mill Ck nr Vanderpool, TX",
+      "parameter": "discharge_cfs",
+      "lon": -99.5487,
+      "lat": 29.719,
+      "points": 2954,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-29T22:15:00+00:00",
+      "pre_event_median": 0.16499999999999998,
+      "peak": 425.0,
+      "peak_local": "2025-07-15T00:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 19.5,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 0.79,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": 4.79,
+          "above_pre_event_median": 0.62
+        },
+        "ro107:pre": {
+          "value": 0.06,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": 0.36,
+          "above_pre_event_median": -0.1
+        },
+        "ro107:post": {
+          "value": 3.97,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": 24.06,
+          "above_pre_event_median": 3.81,
+          "recession_fraction": 0.991
+        },
+        "ro005:control": {
+          "value": 0.14,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": 0.85,
+          "above_pre_event_median": -0.02
+        },
+        "ro005:pre": {
+          "value": 0.47,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": 2.85,
+          "above_pre_event_median": 0.3
+        },
+        "ro005:post": {
+          "value": 391.0,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": 2369.7,
+          "above_pre_event_median": 390.83,
+          "recession_fraction": 0.08
+        }
+      },
+      "peak_after_onset": true
+    },
+    {
+      "site": "08197936",
+      "name": "Sabinal Rv bl Mill Ck nr Vanderpool, TX",
+      "parameter": "gage_height_ft",
+      "lon": -99.5487,
+      "lat": 29.719,
+      "points": 2781,
+      "first_utc": "2025-06-14T23:00:00+00:00",
+      "last_utc": "2025-07-16T09:00:00+00:00",
+      "pre_event_median": 0.255,
+      "peak": 8.72,
+      "peak_local": "2025-07-04T13:30:00-05:00",
+      "provisional": false,
+      "longest_gap_hours": 1.8,
+      "at_scenes": {
+        "ro107:control": {
+          "value": 0.31,
+          "time_local": "2025-06-16T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.05
+        },
+        "ro107:pre": {
+          "value": 0.23,
+          "time_local": "2025-06-28T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.02
+        },
+        "ro107:post": {
+          "value": 0.46,
+          "time_local": "2025-07-10T19:30:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.21,
+          "recession_fraction": 0.976
+        },
+        "ro005:control": {
+          "value": 0.25,
+          "time_local": "2025-06-21T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": -0.01
+        },
+        "ro005:pre": {
+          "value": 0.28,
+          "time_local": "2025-07-03T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 0.03
+        },
+        "ro005:post": {
+          "value": 2.92,
+          "time_local": "2025-07-15T19:45:00-05:00",
+          "ratio_to_pre_event_median": null,
+          "above_pre_event_median": 2.67,
+          "recession_fraction": 0.685
+        }
+      },
+      "peak_after_onset": true
+    }
+  ]
+}

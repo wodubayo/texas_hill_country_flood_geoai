@@ -1,0 +1,140 @@
+{
+  "run_id": "tx_trial_02_ro107",
+  "boxes_layer": "outputs/qgis/tx_trial_02_ro107/hotspots_context_boxes.geojson",
+  "box_population": "cross-track agreeing, corridor land (14 red boxes)",
+  "method": "Visual comparison in QGIS of Esri World Imagery (Kerrville2024, 6-8 Feb 2024, pre-event) against NOAA NGS ERI July 2025 aerial imagery (post-event), guided by change_VH_pre_to_post.",
+  "verdict_classes": ["flood effect", "water", "other change", "no visible change", "can't tell"],
+  "box_matching": "Site road names geocoded with OpenStreetMap Nominatim (2026-11-18); box = nearest red box to the named road.",
+  "reviewed": [
+    {
+      "site": 1,
+      "reviewer_location_note": "TX 27 / Stoneleigh Road",
+      "observation": "Entire structure gone",
+      "verdict": "flood effect",
+      "effect_type": "structure destroyed / removed",
+      "box_index": [104],
+      "box_centroid_utm14n": ["496813,3313138"],
+      "match_distance_m": 88,
+      "box_context": "Woody wetlands, 10 m from Guadalupe River",
+      "review_date": "2026-11-18"
+    },
+    {
+      "site": 2,
+      "reviewer_location_note": "Sutherland Lane / Center Point River Road",
+      "observation": "Fresh sediment",
+      "verdict": "flood effect",
+      "effect_type": "sediment deposit",
+      "box_index": [103, 106],
+      "box_centroid_utm14n": ["493567,3313126", "493458,3312908"],
+      "match_distance_m": 5,
+      "box_context": "NLCD barren, 50-210 m from Guadalupe River; adjacent boxes, treated as one site",
+      "review_date": "2026-11-18"
+    },
+    {
+      "site": 3,
+      "reviewer_location_note": "Along Wharton Road",
+      "observation": "Fresh sediments; water retention (ponded water on land)",
+      "verdict": "flood effect",
+      "effect_type": "sediment deposit + ponded water",
+      "box_index": [93, 95],
+      "box_centroid_utm14n": ["491206,3315218", "491344,3314840"],
+      "match_distance_m": 64,
+      "box_context": "Shrub/scrub, 36-41 m from Guadalupe River",
+      "match_note": "Road is 63-64 m from both boxes; recorded as one site covering both. Per-box split not specified by reviewer.",
+      "review_date": "2026-11-18",
+      "updated": "2026-11-19"
+    },
+    {
+      "site": 4,
+      "reviewer_location_note": "Along Splitrock Road",
+      "observation": "Area looks cultivated, not flood-affected",
+      "verdict": "other change",
+      "effect_type": "agricultural (cultivation / cutting)",
+      "box_index": [91],
+      "box_centroid_utm14n": ["489969,3317165"],
+      "match_distance_m": 2,
+      "box_context": "NLCD pasture/hay, 226 m from Guadalupe River; largest red box (2.61 ha)",
+      "review_date": "2026-11-19"
+    },
+    {
+      "site": 5,
+      "reviewer_location_note": "East of Comfort (box coordinate supplied directly)",
+      "observation": "No change visible when the post-event layer is toggled",
+      "verdict": "no visible change",
+      "provisional": true,
+      "provisional_reason": "Box is outside the July 11/12 NOAA footprints (the default-on layers), where tiles are transparent and Esri shows through; reviewer to confirm the July 21b/22a layers were used. If they were, imagery postdates the RO107 post pass by 11-12 days and the 13-15 July second pulse.",
+      "effect_type": null,
+      "box_index": [92],
+      "box_centroid_utm14n": ["513591,3315597"],
+      "match_distance_m": 0,
+      "box_context": "NLCD cultivated crops, 287 m from Guadalupe River",
+      "review_date": "2026-11-19"
+    },
+    {
+      "site": 6,
+      "reviewer_location_note": "South Fork Guadalupe, west of Hunt (box coordinate supplied directly)",
+      "observation": "No changes visible",
+      "verdict": "no visible change",
+      "effect_type": null,
+      "box_index": [85],
+      "box_centroid_utm14n": ["461904,3319325"],
+      "match_distance_m": 0,
+      "box_context": "NLCD shrub/scrub, 0 m from South Fork Guadalupe River (box intersects the channel)",
+      "interpretation_note": "Box straddles a narrow channel that 30 m NLCD may label as land; the darkening may be a smoother or refilled water surface that looks unchanged in imagery. Check whether the dark change_VH_pre_to_post pixels sit on the channel.",
+      "review_date": "2026-11-19"
+    },
+    {
+      "site": 7,
+      "reviewer_location_note": "Kerrville to Center Point reach, beside the Wharton Rd site (box coordinates supplied directly)",
+      "observation": "Changes visible, with significant sand deposit",
+      "verdict": "flood effect",
+      "effect_type": "sand deposit",
+      "box_index": [94, 96, 97, 98],
+      "box_centroid_utm14n": ["491500,3315121", "491596,3314740", "491811,3314574", "491515,3314584"],
+      "match_distance_m": 0,
+      "box_context": "Adjacent boxes; NLCD barren, shrub/scrub (2), pasture/hay; 50-297 m from Guadalupe River",
+      "review_date": "2026-11-19"
+    },
+    {
+      "site": 8,
+      "reviewer_location_note": "Comfort reach (box coordinate supplied directly)",
+      "observation": "No change",
+      "verdict": "no visible change",
+      "effect_type": null,
+      "box_index": [107],
+      "box_centroid_utm14n": ["505529,3312403"],
+      "match_distance_m": 0,
+      "box_context": "NLCD shrub/scrub, 228 m from Guadalupe River",
+      "review_date": "2026-11-19"
+    },
+    {
+      "site": 9,
+      "reviewer_location_note": "Comfort reach (box coordinate supplied directly)",
+      "observation": "No change",
+      "verdict": "no visible change",
+      "effect_type": null,
+      "box_index": [105],
+      "box_centroid_utm14n": ["507544,3313106"],
+      "match_distance_m": 0,
+      "box_context": "NLCD barren, 120 m from Guadalupe River",
+      "review_date": "2026-11-19"
+    }
+  ],
+  "filter_check": {
+    "review_date": "2026-11-19",
+    "method": "Qualitative scan of rejected groups; individual boxes not listed.",
+    "magenta_single_track": "Mostly away from the river and show no visible change. Supports rejecting single-track clusters as noise.",
+    "cyan_water_or_off_corridor": "Around Ingram, cyan boxes show water / flooding along the stream network. Suggests the 'existing water' group contains real flood signal there (water beyond normal channel or pool), so it should not be discarded wholesale."
+  },
+  "summary": {
+    "boxes_reviewed": 14,
+    "boxes_total": 14,
+    "flood_effect": [93, 94, 95, 96, 97, 98, 103, 104, 106],
+    "other_change": [91],
+    "no_visible_change": [85, 92, 105, 107],
+    "no_visible_change_provisional": [92],
+    "precision_flood_effect": "9/14 (64%)",
+    "note": "Precision only: boxes not flagged by the screen were not reviewed, so missed flood effects (recall) are unmeasured. All 9 flood-effect boxes lie on the Kerrville to Center Point reach (491,200-496,900 E); 3 of 4 no-change boxes lie on the Comfort reach or east of it, and one on the South Fork west of Hunt."
+  },
+  "status": "Exploratory visual review by one reviewer; not field-verified."
+}

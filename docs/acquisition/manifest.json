@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "event_id": "TX_HILL_COUNTRY_2025_07",
+  "assets": {
+    "data/raw/boundaries/cb_2024_us_county_500k.zip": {
+      "source": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+      "registered_utc": "2026-11-17T02:39:51.985928+00:00",
+      "bytes": 11626066,
+      "sha256": "da4051717caec55c75e3748c3608c2a3dbde8d1ff401bbaf4f952e3c3fb63ef1",
+      "publisher": "US Census Bureau",
+      "product": "Cartographic Boundary Files 2024, 1:500k counties",
+      "license": "Public domain (US federal government work)",
+      "crs": "EPSG:4269"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8.zip",
+      "registered_utc": "2026-11-17T16:41:14.091888+00:00",
+      "bytes": 993050510,
+      "sha256": "507f5b64fe8d9e4915dc7c6631260379b069193df1eb951b1e62e2e3ebece956",
+      "role": "control",
+      "product_id": "S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-06-22T00:43:26+00:00",
+      "relative_orbit": 5,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4.zip",
+      "registered_utc": "2026-11-17T16:41:55.507744+00:00",
+      "bytes": 987929930,
+      "sha256": "b68fd7ea3cd03da0f5165af4f62d1641607f23651245314f4b583b49387ad16b",
+      "role": "pre",
+      "product_id": "S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-07-04T00:43:25+00:00",
+      "relative_orbit": 5,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382.zip",
+      "registered_utc": "2026-11-17T16:42:35.589776+00:00",
+      "bytes": 987581263,
+      "sha256": "2c2fb5c17f081d05ce7916d361f9bd497bd90367ad66dffa33791377c728a658",
+      "role": "post",
+      "product_id": "S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-07-16T00:43:24+00:00",
+      "relative_orbit": 5,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/reference/usgs_nwis/sites_aoi_bbox.rdb": {
+      "source": "https://waterservices.usgs.gov/nwis/site/?format=rdb&bBox=-99.8614,29.6912,-98.8143,30.3809&parameterCd=00060,00065&siteType=ST&hasDataTypeCd=iv&siteStatus=all",
+      "registered_utc": "2026-11-17T19:53:40.295677+00:00",
+      "bytes": 3460,
+      "sha256": "0381e6677d97bf6362746a45067aa3e19dbb4d49e9a57ebf4f842c5f7a5e332f",
+      "publisher": "USGS NWIS",
+      "license": "Public domain (USGS)"
+    },
+    "data/raw/reference/usgs_nwis/iv_2025-06-15_2025-07-30.json": {
+      "source": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=08152900,08165300,08165400,08165500,08166000,08166140,08166150,08166200,08166250,08166700,08167000,08178861,08178871,0817887350,08178880,08178980,08194755,08194840,08197910,08197936&parameterCd=00060,00065&startDT=2025-06-15T00:00Z&endDT=2025-07-30T00:00Z&siteStatus=all",
+      "registered_utc": "2026-11-17T19:54:50.001463+00:00",
+      "bytes": 18170184,
+      "sha256": "b7053b7b98f341dfd0a3a9e7994de34fafc9a14564728f7217961b79a567d421",
+      "publisher": "USGS NWIS",
+      "license": "Public domain (USGS)",
+      "note": "NWIS IV data may be provisional"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7.zip",
+      "registered_utc": "2026-11-17T20:06:54.374020+00:00",
+      "bytes": 990491488,
+      "sha256": "6f9e17cb596339053ef1bbf5aa78a543a3c53b928707fc8e94410f64192f0190",
+      "scene_set": "ro107",
+      "role": "control",
+      "product_id": "S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-06-17T00:35:13+00:00",
+      "relative_orbit": 107,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F.zip",
+      "registered_utc": "2026-11-17T20:07:39.101686+00:00",
+      "bytes": 984116889,
+      "sha256": "6451af158b2bea4d608e7dfe964fd1e4a2b873977935653c1515e7ad51545d79",
+      "scene_set": "ro107",
+      "role": "pre",
+      "product_id": "S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-06-29T00:35:12+00:00",
+      "relative_orbit": 107,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/sentinel1/S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE.zip": {
+      "source": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE.zip",
+      "registered_utc": "2026-11-17T20:08:22.029652+00:00",
+      "bytes": 989430148,
+      "sha256": "3f2eab0ade24a0212d757c3bb593b93a6fb8cdde0e8902aad3a356a5bb590407",
+      "scene_set": "ro107",
+      "role": "post",
+      "product_id": "S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE",
+      "md5_verified": true,
+      "sensing_start_utc": "2025-07-11T00:35:12+00:00",
+      "relative_orbit": 107,
+      "flight_direction": "ASCENDING",
+      "license": "Copernicus Sentinel data, free and open (Copernicus data policy)"
+    },
+    "data/raw/reference/nhd/flowline_t00_000000.geojson": {
+      "source": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=1%3D1&geometry=-99.861365,29.691163,-99.599595,29.863605&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=permanent_identifier,gnis_name,ftype,fcode&outSR=4326&maxAllowableOffset=0.00003&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=1000&f=geojson",
+      "registered_utc": "2026-11-17T22:08:25.212868+00:00",
+      "bytes": 477342,
+      "sha256": "0eff1469db6065649593b8ca89f2732158b51603dcd1ead7f6e21aae51194f1f",
+      "publisher": "USGS National Hydrography Dataset (large scale)",
+      "license": "Public domain (USGS)",
+      "tile": [
+        0,
+        0
+      ],
+      "generalisation_deg": 3e-05
+    },
+    "data/raw/reference/nhd/flowline_t00_001000.geojson": {
+      "source": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=1%3D1&geometry=-99.861365,29.691163,-99.599595,29.863605&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=permanent_identifier,gnis_name,ftype,fcode&outSR=4326&maxAllowableOffset=0.00003&orderByFields=OBJECTID&resultOffset=1000&resultRecordCount=1000&f=geojson",
+      "registered_utc": "2026-11-17T22:10:24.587283+00:00",
+      "bytes": 155413,
+      "sha256": "ac897d7444c7fc17d77997aa604b8d578664fd858d2dfe2426136939504d9fee",
+      "publisher": "USGS National Hydrography Dataset (large scale)",
+      "license": "Public domain (USGS)",
+      "tile": [
+        0,
+        0
+      ],
+      "generalisation_deg": 3e-05
+    },
+    "data/raw/reference/nhd/flowline_t01_000000.geojson": {
+      "source": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=1%3D1&geometry=-99.861365,29.863605,-99.599595,30.036046&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=permanent_identifier,gnis_name,ftype,fcode&outSR=4326&maxAllowableOffset=0.00003&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=1000&f=geojson",
+      "registered_utc": "2026-11-17T22:14:09.292875+00:00",
+      "bytes": 430831,
+      "sha256": "a148beced6f04f78985f2b701b1438137a8eecbed15d46d58015d16477dbe48c",
+      "publisher": "USGS National Hydrography Dataset (large scale)",
+      "license": "Public domain (USGS)",
+      "tile": [
+        0,
+        1
+      ],
+      "generalisation_deg": 3e-05
+    },
+    "data/raw/reference/nhd/NHD_H_1209_HU4_GPKG.zip": {
+      "source": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/HU4/GPKG/NHD_H_1209_HU4_GPKG.zip",
+      "registered_utc": "2026-11-17T22:19:41.970003+00:00",
+      "bytes": 161933191,
+      "sha256": "0f2a83d84cd7a52b8ff676a4bb45f8e995b41a4a60a6dbd615bc8a9128c9c6b3",
+      "publisher": "USGS National Hydrography Dataset High Resolution (HU4 staged product)",
+      "license": "Public domain (USGS)",
+      "hu4": "1209"
+    },
+    "data/raw/reference/nhd/NHD_H_1210_HU4_GPKG.zip": {
+      "source": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/HU4/GPKG/NHD_H_1210_HU4_GPKG.zip",
+      "registered_utc": "2026-11-17T22:20:53.306689+00:00",
+      "bytes": 114296849,
+      "sha256": "a3f85ba8a30b95db886914e12a579065d2f4c94972c603850927a976a7fb92db",
+      "publisher": "USGS National Hydrography Dataset High Resolution (HU4 staged product)",
+      "license": "Public domain (USGS)",
+      "hu4": "1210"
+    },
+    "data/raw/reference/nhd/NHD_H_1211_HU4_GPKG.zip": {
+      "source": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/HU4/GPKG/NHD_H_1211_HU4_GPKG.zip",
+      "registered_utc": "2026-11-17T22:22:06.574484+00:00",
+      "bytes": 119602203,
+      "sha256": "5acf06c26e93435e0db878f78412c02013d4b4448abb316972e3860581667a9e",
+      "publisher": "USGS National Hydrography Dataset High Resolution (HU4 staged product)",
+      "license": "Public domain (USGS)",
+      "hu4": "1211"
+    },
+    "data/raw/reference/nlcd/nlcd_2021_land_cover_aoi.tif": {
+      "source": "https://www.mrlc.gov/geoserver/mrlc_download/wcs?service=WCS&version=2.0.1&request=GetCoverage&coverageid=mrlc_download__NLCD_2021_Land_Cover_L48&subset=X(-374460,-268950)&subset=Y(738120,820200)&format=image/geotiff",
+      "registered_utc": "2026-11-17T22:22:31.145708+00:00",
+      "bytes": 11012316,
+      "sha256": "f907d920cd57d7097a6eba6602462421e6afce18b2e95605e42d7c41b02f66a9",
+      "publisher": "MRLC / USGS",
+      "product": "NLCD 2021 Land Cover (L48)",
+      "license": "Public domain (USGS)",
+      "crs": "EPSG:5070"
+    },
+    "data/raw/reference/noaa_ngs/eri_2025_services_index.json": {
+      "source": "https://storms.ngs.noaa.gov/storms/2025_eri/services/index.json",
+      "registered_utc": "2026-11-18T03:48:10.505670+00:00",
+      "bytes": 10029,
+      "sha256": "cd03789d3deb9c756b84123d90d9f2a09ced18fbe63605f1b715fdcc12b949d2",
+      "publisher": "NOAA National Geodetic Survey, Emergency Response Imagery",
+      "note": "service index; tiles not downloaded"
+    }
+  }
+}

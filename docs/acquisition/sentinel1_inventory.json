@@ -1,0 +1,263 @@
+{
+  "generated_utc": "2026-11-17T02:45:56.998458+00:00",
+  "event_id": "TX_HILL_COUNTRY_2025_07",
+  "asf_search_version": "14.1.0",
+  "query": {
+    "platform": [
+      "SENTINEL-1"
+    ],
+    "processingLevel": [
+      "GRD_HD"
+    ],
+    "beamMode": [
+      "IW"
+    ],
+    "polarization": [
+      "VV+VH"
+    ],
+    "intersectsWith": "convex hull of data/interim/boundaries/aoi_provisional.geojson",
+    "start": "2025-06-15T00:00:00Z",
+    "end": "2025-07-30T00:00:00Z"
+  },
+  "aoi_status": "provisional",
+  "scene_count": 8,
+  "tracks": {
+    "ASCENDING_RO107": [
+      "S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7",
+      "S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F",
+      "S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE",
+      "S1A_IW_GRDH_1SDV_20250723T003511_20250723T003536_060204_077B2F_996E"
+    ],
+    "ASCENDING_RO005": [
+      "S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8",
+      "S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4",
+      "S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382",
+      "S1A_IW_GRDH_1SDV_20250728T004324_20250728T004349_060277_077DB6_A281"
+    ]
+  },
+  "landmarks_wgs84": {
+    "Hunt": [
+      -99.334,
+      30.07
+    ],
+    "Ingram": [
+      -99.236,
+      30.077
+    ],
+    "Kerrville": [
+      -99.14,
+      30.047
+    ],
+    "Center Point": [
+      -99.036,
+      29.944
+    ],
+    "Comfort": [
+      -98.905,
+      29.968
+    ]
+  },
+  "scenes": [
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-06-17T00:35:13+00:00",
+      "sensing_stop_utc": "2025-06-17T00:35:38+00:00",
+      "sensing_start_local": "2025-06-16T19:35:13-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 107,
+      "frame": 93,
+      "absolute_orbit": 59679,
+      "polarization": "VV+VH",
+      "processing_date": "2025-06-17T00:35:13Z",
+      "bytes": 990491488,
+      "md5sum": "7e9c83e989ac9b00af24b0e16e494a64",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7.zip",
+      "aoi_coverage_fraction": 0.614,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-99.193916 28.879303, -96.583138 29.295006, -96.872612 30.800373, -99.523239 30.387445, -99.193916 28.879303))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-06-22T00:43:26+00:00",
+      "sensing_stop_utc": "2025-06-22T00:43:51+00:00",
+      "sensing_start_local": "2025-06-21T19:43:26-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 5,
+      "frame": 93,
+      "absolute_orbit": 59752,
+      "polarization": "VV+VH",
+      "processing_date": "2025-06-22T00:43:26Z",
+      "bytes": 993050510,
+      "md5sum": "577ab7c70de837dd318f4e7bad9f0b08",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8.zip",
+      "aoi_coverage_fraction": 1.0,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-101.240288 28.841511, -98.644516 29.255108, -98.934807 30.760374, -101.570175 30.349512, -101.240288 28.841511))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-06-29T00:35:12+00:00",
+      "sensing_stop_utc": "2025-06-29T00:35:37+00:00",
+      "sensing_start_local": "2025-06-28T19:35:12-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 107,
+      "frame": 93,
+      "absolute_orbit": 59854,
+      "polarization": "VV+VH",
+      "processing_date": "2025-06-29T00:35:12Z",
+      "bytes": 984116889,
+      "md5sum": "988ce417395ecaeb4a052704e1a77473",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F.zip",
+      "aoi_coverage_fraction": 0.6146,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-99.194489 28.879236, -96.609482 29.291084, -96.899338 30.796463, -99.523788 30.387346, -99.194489 28.879236))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-07-04T00:43:25+00:00",
+      "sensing_stop_utc": "2025-07-04T00:43:50+00:00",
+      "sensing_start_local": "2025-07-03T19:43:25-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 5,
+      "frame": 93,
+      "absolute_orbit": 59927,
+      "polarization": "VV+VH",
+      "processing_date": "2025-07-04T00:43:25Z",
+      "bytes": 987929930,
+      "md5sum": "04ff88fdf77af579896b88e669e078f0",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4.zip",
+      "aoi_coverage_fraction": 0.9949,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-101.240654 28.841398, -98.669945 29.251293, -98.960663 30.756666, -101.57058 30.349463, -101.240654 28.841398))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-07-11T00:35:12+00:00",
+      "sensing_stop_utc": "2025-07-11T00:35:37+00:00",
+      "sensing_start_local": "2025-07-10T19:35:12-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 107,
+      "frame": 93,
+      "absolute_orbit": 60029,
+      "polarization": "VV+VH",
+      "processing_date": "2025-07-11T00:35:12Z",
+      "bytes": 989430148,
+      "md5sum": "708a76360bf043089d62a0994c3d19c5",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE.zip",
+      "aoi_coverage_fraction": 0.6138,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-99.193802 28.879477, -96.608986 29.291271, -96.898849 30.796741, -99.523117 30.387678, -99.193802 28.879477))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-07-16T00:43:24+00:00",
+      "sensing_stop_utc": "2025-07-16T00:43:49+00:00",
+      "sensing_start_local": "2025-07-15T19:43:24-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 5,
+      "frame": 93,
+      "absolute_orbit": 60102,
+      "polarization": "VV+VH",
+      "processing_date": "2025-07-16T00:43:24Z",
+      "bytes": 987581263,
+      "md5sum": "2718d5bf7b3a717fb1133aff549ff22c",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382.zip",
+      "aoi_coverage_fraction": 0.9951,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-101.239929 28.841711, -98.669418 29.251579, -98.960152 30.756947, -101.56987 30.349771, -101.239929 28.841711))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250723T003511_20250723T003536_060204_077B2F_996E",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-07-23T00:35:11+00:00",
+      "sensing_stop_utc": "2025-07-23T00:35:36+00:00",
+      "sensing_start_local": "2025-07-22T19:35:11-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 107,
+      "frame": 93,
+      "absolute_orbit": 60204,
+      "polarization": "VV+VH",
+      "processing_date": "2025-07-23T00:35:11Z",
+      "bytes": 984063679,
+      "md5sum": "1165306a0230b532a289399be0961b70",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250723T003511_20250723T003536_060204_077B2F_996E.zip",
+      "aoi_coverage_fraction": 0.6138,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-99.19371 28.879433, -96.608803 29.291286, -96.898689 30.796755, -99.523048 30.387634, -99.19371 28.879433))"
+    },
+    {
+      "product_id": "S1A_IW_GRDH_1SDV_20250728T004324_20250728T004349_060277_077DB6_A281",
+      "platform": "S1A",
+      "sensing_start_utc": "2025-07-28T00:43:24+00:00",
+      "sensing_stop_utc": "2025-07-28T00:43:49+00:00",
+      "sensing_start_local": "2025-07-27T19:43:24-05:00",
+      "flight_direction": "ASCENDING",
+      "relative_orbit": 5,
+      "frame": 93,
+      "absolute_orbit": 60277,
+      "polarization": "VV+VH",
+      "processing_date": "2025-07-28T00:43:24Z",
+      "bytes": 986876894,
+      "md5sum": "f7e46f7cdabf31d36f5f99431031e518",
+      "url": "https://datapool.asf.alaska.edu/GRD_HD/SA/S1A_IW_GRDH_1SDV_20250728T004324_20250728T004349_060277_077DB6_A281.zip",
+      "aoi_coverage_fraction": 0.995,
+      "landmarks_covered": [
+        "Center Point",
+        "Comfort",
+        "Hunt",
+        "Ingram",
+        "Kerrville"
+      ],
+      "footprint_wkt": "POLYGON ((-101.240303 28.841621, -98.669693 29.251516, -98.960426 30.756886, -101.570251 30.349684, -101.240303 28.841621))"
+    }
+  ],
+  "note": "Inventory only. Selection requires same relative orbit, AOI coverage, and sensing time checked against local flood chronology."
+}

@@ -1,0 +1,3326 @@
+{
+  "generated_utc": "2026-11-17T23:59:08.733894+00:00",
+  "primary_run": "tx_trial_02_ro107",
+  "secondary_run": "tx_trial_01",
+  "status": "exploratory context; not validation",
+  "sources": {
+    "nhd": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/HU4/GPKG HU4 ['1209', '1210', '1211'] (NHDFlowline, NHDWaterbody)",
+    "nlcd": "mrlc_download__NLCD_2021_Land_Cover_L48",
+    "note": "NLCD 2021 predates the event by ~4 years; NHD flowline positions are approximate at 10 m"
+  },
+  "mainstem_names": [
+    "Guadalupe River",
+    "North Fork Guadalupe River",
+    "South Fork Guadalupe River"
+  ],
+  "pixel_counts": {
+    "area": 45084967,
+    "flagged": 14208,
+    "agree": 7320,
+    "baseline": 1299897
+  },
+  "pixel_shares": {
+    "distance_bands": {
+      "guadalupe_mainstem": {
+        "area": {
+          "0-100 m": 0.0047,
+          "100-300 m": 0.009,
+          "300-1000 m": 0.0289,
+          ">1000 m": 0.9574
+        },
+        "flagged": {
+          "0-100 m": 0.157,
+          "100-300 m": 0.0693,
+          "300-1000 m": 0.0598,
+          ">1000 m": 0.7139
+        },
+        "agree": {
+          "0-100 m": 0.2973,
+          "100-300 m": 0.1202,
+          "300-1000 m": 0.0694,
+          ">1000 m": 0.5131
+        },
+        "baseline": {
+          "0-100 m": 0.0044,
+          "100-300 m": 0.0182,
+          "300-1000 m": 0.0406,
+          ">1000 m": 0.9367
+        }
+      },
+      "named_stream": {
+        "area": {
+          "0-100 m": 0.0891,
+          "100-300 m": 0.1608,
+          "300-1000 m": 0.4317,
+          ">1000 m": 0.3184
+        },
+        "flagged": {
+          "0-100 m": 0.334,
+          "100-300 m": 0.2165,
+          "300-1000 m": 0.2918,
+          ">1000 m": 0.1577
+        },
+        "agree": {
+          "0-100 m": 0.515,
+          "100-300 m": 0.1505,
+          "300-1000 m": 0.1958,
+          ">1000 m": 0.1387
+        },
+        "baseline": {
+          "0-100 m": 0.0873,
+          "100-300 m": 0.2301,
+          "300-1000 m": 0.4194,
+          ">1000 m": 0.2632
+        }
+      },
+      "any_flowline": {
+        "area": {
+          "0-100 m": 0.2992,
+          "100-300 m": 0.4681,
+          "300-1000 m": 0.2321,
+          ">1000 m": 0.0006
+        },
+        "flagged": {
+          "0-100 m": 0.4964,
+          "100-300 m": 0.3283,
+          "300-1000 m": 0.1753,
+          ">1000 m": 0.0
+        },
+        "agree": {
+          "0-100 m": 0.6564,
+          "100-300 m": 0.1426,
+          "300-1000 m": 0.201,
+          ">1000 m": 0.0
+        },
+        "baseline": {
+          "0-100 m": 0.2539,
+          "100-300 m": 0.4671,
+          "300-1000 m": 0.2777,
+          ">1000 m": 0.0013
+        }
+      }
+    },
+    "waterbody_within_30m": {
+      "area": 0.0155,
+      "flagged": 0.2415,
+      "agree": 0.4534,
+      "baseline": 0.0153
+    },
+    "nlcd": {
+      "area": {
+        "Open water": 0.002,
+        "Developed, open": 0.0368,
+        "Developed, low": 0.0113,
+        "Developed, medium": 0.0061,
+        "Developed, high": 0.0017,
+        "Barren": 0.0017,
+        "Deciduous forest": 0.0181,
+        "Evergreen forest": 0.2499,
+        "Mixed forest": 0.0002,
+        "Shrub/scrub": 0.6361,
+        "Grassland/herbaceous": 0.0189,
+        "Pasture/hay": 0.0097,
+        "Cultivated crops": 0.0063,
+        "Woody wetlands": 0.0012,
+        "Herbaceous wetlands": 0.0001
+      },
+      "flagged": {
+        "Open water": 0.1483,
+        "Developed, open": 0.0327,
+        "Developed, low": 0.0048,
+        "Developed, medium": 0.0063,
+        "Developed, high": 0.0063,
+        "Barren": 0.0317,
+        "Deciduous forest": 0.0096,
+        "Evergreen forest": 0.1603,
+        "Mixed forest": 0.0,
+        "Shrub/scrub": 0.4003,
+        "Grassland/herbaceous": 0.0574,
+        "Pasture/hay": 0.0354,
+        "Cultivated crops": 0.0907,
+        "Woody wetlands": 0.0123,
+        "Herbaceous wetlands": 0.0038
+      },
+      "agree": {
+        "Open water": 0.2832,
+        "Developed, open": 0.0269,
+        "Developed, low": 0.0083,
+        "Developed, medium": 0.0089,
+        "Developed, high": 0.0093,
+        "Barren": 0.0616,
+        "Deciduous forest": 0.0059,
+        "Evergreen forest": 0.0439,
+        "Mixed forest": 0.0,
+        "Shrub/scrub": 0.2923,
+        "Grassland/herbaceous": 0.0903,
+        "Pasture/hay": 0.0612,
+        "Cultivated crops": 0.0769,
+        "Woody wetlands": 0.0239,
+        "Herbaceous wetlands": 0.0074
+      },
+      "baseline": {
+        "Open water": 0.003,
+        "Developed, open": 0.0439,
+        "Developed, low": 0.0073,
+        "Developed, medium": 0.0042,
+        "Developed, high": 0.0013,
+        "Barren": 0.001,
+        "Deciduous forest": 0.0045,
+        "Evergreen forest": 0.0591,
+        "Mixed forest": 0.0001,
+        "Shrub/scrub": 0.7474,
+        "Grassland/herbaceous": 0.0476,
+        "Pasture/hay": 0.0419,
+        "Cultivated crops": 0.038,
+        "Woody wetlands": 0.0005,
+        "Herbaceous wetlands": 0.0001
+      }
+    }
+  },
+  "enrichment_vs_area": {
+    "distance_bands": {
+      "guadalupe_mainstem": {
+        "flagged": {
+          "0-100 m": 33.4,
+          "100-300 m": 7.7,
+          "300-1000 m": 2.07,
+          ">1000 m": 0.75
+        },
+        "agree": {
+          "0-100 m": 63.26,
+          "100-300 m": 13.36,
+          "300-1000 m": 2.4,
+          ">1000 m": 0.54
+        },
+        "baseline": {
+          "0-100 m": 0.94,
+          "100-300 m": 2.02,
+          "300-1000 m": 1.4,
+          ">1000 m": 0.98
+        }
+      },
+      "named_stream": {
+        "flagged": {
+          "0-100 m": 3.75,
+          "100-300 m": 1.35,
+          "300-1000 m": 0.68,
+          ">1000 m": 0.5
+        },
+        "agree": {
+          "0-100 m": 5.78,
+          "100-300 m": 0.94,
+          "300-1000 m": 0.45,
+          ">1000 m": 0.44
+        },
+        "baseline": {
+          "0-100 m": 0.98,
+          "100-300 m": 1.43,
+          "300-1000 m": 0.97,
+          ">1000 m": 0.83
+        }
+      },
+      "any_flowline": {
+        "flagged": {
+          "0-100 m": 1.66,
+          "100-300 m": 0.7,
+          "300-1000 m": 0.76,
+          ">1000 m": 0.0
+        },
+        "agree": {
+          "0-100 m": 2.19,
+          "100-300 m": 0.3,
+          "300-1000 m": 0.87,
+          ">1000 m": 0.0
+        },
+        "baseline": {
+          "0-100 m": 0.85,
+          "100-300 m": 1.0,
+          "300-1000 m": 1.2,
+          ">1000 m": 2.17
+        }
+      }
+    },
+    "nlcd": {
+      "flagged": {
+        "Open water": 74.15,
+        "Developed, open": 0.89,
+        "Developed, low": 0.42,
+        "Developed, medium": 1.03,
+        "Developed, high": 3.71,
+        "Barren": 18.65,
+        "Deciduous forest": 0.53,
+        "Evergreen forest": 0.64,
+        "Mixed forest": 0.0,
+        "Shrub/scrub": 0.63,
+        "Grassland/herbaceous": 3.04,
+        "Pasture/hay": 3.65,
+        "Cultivated crops": 14.4,
+        "Woody wetlands": 10.25,
+        "Herbaceous wetlands": 38.0
+      },
+      "agree": {
+        "Open water": 141.6,
+        "Developed, open": 0.73,
+        "Developed, low": 0.73,
+        "Developed, medium": 1.46,
+        "Developed, high": 5.47,
+        "Barren": 36.24,
+        "Deciduous forest": 0.33,
+        "Evergreen forest": 0.18,
+        "Mixed forest": 0.0,
+        "Shrub/scrub": 0.46,
+        "Grassland/herbaceous": 4.78,
+        "Pasture/hay": 6.31,
+        "Cultivated crops": 12.21,
+        "Woody wetlands": 19.92,
+        "Herbaceous wetlands": 74.0
+      },
+      "baseline": {
+        "Open water": 1.5,
+        "Developed, open": 1.19,
+        "Developed, low": 0.65,
+        "Developed, medium": 0.69,
+        "Developed, high": 0.76,
+        "Barren": 0.59,
+        "Deciduous forest": 0.25,
+        "Evergreen forest": 0.24,
+        "Mixed forest": 0.5,
+        "Shrub/scrub": 1.17,
+        "Grassland/herbaceous": 2.52,
+        "Pasture/hay": 4.32,
+        "Cultivated crops": 6.03,
+        "Woody wetlands": 0.42,
+        "Herbaceous wetlands": 1.0
+      }
+    }
+  },
+  "cluster_summary": {
+    "agree": {
+      "clusters": 66,
+      "mainstem_band": {
+        ">1000 m": 32,
+        "0-100 m": 26,
+        "100-300 m": 8
+      },
+      "named_stream_band": {
+        "0-100 m": 44,
+        "100-300 m": 10,
+        ">1000 m": 7,
+        "300-1000 m": 5
+      },
+      "waterbody_within_30m": 43,
+      "dominant_nlcd": {
+        "Shrub/scrub": 22,
+        "Open water": 19,
+        "Barren": 6,
+        "Grassland/herbaceous": 5,
+        "Evergreen forest": 4,
+        "Cultivated crops": 3,
+        "Woody wetlands": 2,
+        "Pasture/hay": 2,
+        "Developed, medium": 1,
+        "Developed, high": 1,
+        "Herbaceous wetlands": 1
+      }
+    },
+    "primary_only": {
+      "clusters": 99,
+      "mainstem_band": {
+        ">1000 m": 90,
+        "300-1000 m": 5,
+        "100-300 m": 3,
+        "0-100 m": 1
+      },
+      "named_stream_band": {
+        "300-1000 m": 41,
+        "0-100 m": 23,
+        "100-300 m": 18,
+        ">1000 m": 17
+      },
+      "waterbody_within_30m": 4,
+      "dominant_nlcd": {
+        "Shrub/scrub": 50,
+        "Evergreen forest": 35,
+        "Cultivated crops": 8,
+        "Developed, open": 1,
+        "Deciduous forest": 1,
+        "Open water": 1,
+        "Developed, medium": 1,
+        "Pasture/hay": 1,
+        "Grassland/herbaceous": 1
+      }
+    }
+  },
+  "clusters": [
+    {
+      "centroid_utm14n": [
+        492163,
+        3359456
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34695,
+      "dist_named_stream_m": 28,
+      "nearest_named_stream": "Spring Creek",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        494415,
+        3359149
+      ],
+      "area_ha": 0.65,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 35110,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        494097,
+        3359041
+      ],
+      "area_ha": 0.91,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34881,
+      "dist_named_stream_m": 60,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 60,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        493938,
+        3359020
+      ],
+      "area_ha": 1.13,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34813,
+      "dist_named_stream_m": 170,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 170,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        493730,
+        3358983
+      ],
+      "area_ha": 1.63,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34709,
+      "dist_named_stream_m": 165,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 165,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        494373,
+        3358896
+      ],
+      "area_ha": 1.33,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34835,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        494048,
+        3358842
+      ],
+      "area_ha": 0.84,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34672,
+      "dist_named_stream_m": 30,
+      "nearest_named_stream": "Adobe Creek",
+      "dist_any_flowline_m": 30,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        466427,
+        3358566
+      ],
+      "area_ha": 0.58,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 30600,
+      "dist_named_stream_m": 36,
+      "nearest_named_stream": "White Oak Creek",
+      "dist_any_flowline_m": 36,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        483105,
+        3358393
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 31890,
+      "dist_named_stream_m": 347,
+      "nearest_named_stream": "Maverick Spring Branch",
+      "dist_any_flowline_m": 347,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        470059,
+        3358244
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 30477,
+      "dist_named_stream_m": 2469,
+      "nearest_named_stream": "Shin Oak Creek",
+      "dist_any_flowline_m": 392,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        497718,
+        3356979
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 34370,
+      "dist_named_stream_m": 300,
+      "nearest_named_stream": "Canyon Creek",
+      "dist_any_flowline_m": 270,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        454171,
+        3355396
+      ],
+      "area_ha": 0.55,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 29423,
+      "dist_named_stream_m": 694,
+      "nearest_named_stream": "James River",
+      "dist_any_flowline_m": 63,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        485040,
+        3355263
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 28956,
+      "dist_named_stream_m": 1220,
+      "nearest_named_stream": "Flag Creek",
+      "dist_any_flowline_m": 130,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        454203,
+        3353946
+      ],
+      "area_ha": 0.65,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27964,
+      "dist_named_stream_m": 891,
+      "nearest_named_stream": "James River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        459492,
+        3353115
+      ],
+      "area_ha": 0.56,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 25982,
+      "dist_named_stream_m": 1389,
+      "nearest_named_stream": "Little Devils River",
+      "dist_any_flowline_m": 340,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        485262,
+        3352739
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 26521,
+      "dist_named_stream_m": 666,
+      "nearest_named_stream": "Walnut Creek",
+      "dist_any_flowline_m": 206,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        473231,
+        3351939
+      ],
+      "area_ha": 0.9,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 24891,
+      "dist_named_stream_m": 82,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 82,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        509714,
+        3350893
+      ],
+      "area_ha": 0.83,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 34164,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Barons Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        496809,
+        3347227
+      ],
+      "area_ha": 0.87,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 25351,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Spring Creek",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        500871,
+        3347094
+      ],
+      "area_ha": 0.56,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 27325,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Mud Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        456886,
+        3346809
+      ],
+      "area_ha": 1.42,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 20656,
+      "dist_named_stream_m": 1963,
+      "nearest_named_stream": "Little Devils River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        492688,
+        3345774
+      ],
+      "area_ha": 1.26,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 22008,
+      "dist_named_stream_m": 110,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        492341,
+        3345816
+      ],
+      "area_ha": 0.69,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 21998,
+      "dist_named_stream_m": 233,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 149,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        506399,
+        3345762
+      ],
+      "area_ha": 0.86,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 29647,
+      "dist_named_stream_m": 1369,
+      "nearest_named_stream": "Live Oak Creek",
+      "dist_any_flowline_m": 280,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        495314,
+        3344036
+      ],
+      "area_ha": 1.05,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 21889,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        505815,
+        3343160
+      ],
+      "area_ha": 1.26,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27353,
+      "dist_named_stream_m": 371,
+      "nearest_named_stream": "Nasse Creek",
+      "dist_any_flowline_m": 371,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        506139,
+        3342966
+      ],
+      "area_ha": 2.04,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27411,
+      "dist_named_stream_m": 120,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 120,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        506017,
+        3342703
+      ],
+      "area_ha": 1.49,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27185,
+      "dist_named_stream_m": 54,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 54,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Developed, open",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        516425,
+        3342465
+      ],
+      "area_ha": 0.53,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 25205,
+      "dist_named_stream_m": 361,
+      "nearest_named_stream": "Pedernales River",
+      "dist_any_flowline_m": 72,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        465013,
+        3341145
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 13257,
+      "dist_named_stream_m": 1755,
+      "nearest_named_stream": "Fessenden Branch",
+      "dist_any_flowline_m": 110,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        462850,
+        3339831
+      ],
+      "area_ha": 0.74,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 12274,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        461453,
+        3339619
+      ],
+      "area_ha": 0.78,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 12520,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        463624,
+        3339277
+      ],
+      "area_ha": 0.59,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 11600,
+      "dist_named_stream_m": 438,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        463511,
+        3339263
+      ],
+      "area_ha": 0.58,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 11622,
+      "dist_named_stream_m": 375,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 14,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        511744,
+        3338236
+      ],
+      "area_ha": 3.44,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 21272,
+      "dist_named_stream_m": 379,
+      "nearest_named_stream": "Pecan Creek",
+      "dist_any_flowline_m": 318,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        465366,
+        3337889
+      ],
+      "area_ha": 0.67,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 9949,
+      "dist_named_stream_m": 461,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 284,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        466113,
+        3337683
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 9724,
+      "dist_named_stream_m": 672,
+      "nearest_named_stream": "Fessenden Branch",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        510989,
+        3336985
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 20279,
+      "dist_named_stream_m": 230,
+      "nearest_named_stream": "Muesebach Creek",
+      "dist_any_flowline_m": 230,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        478001,
+        3336633
+      ],
+      "area_ha": 0.85,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 9989,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "West Goat Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        494615,
+        3336316
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 14906,
+      "dist_named_stream_m": 214,
+      "nearest_named_stream": "Walnut Creek",
+      "dist_any_flowline_m": 214,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        463766,
+        3335716
+      ],
+      "area_ha": 0.76,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 8127,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Spring Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        468463,
+        3334901
+      ],
+      "area_ha": 0.98,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 7205,
+      "dist_named_stream_m": 421,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        514422,
+        3334323
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 17125,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "School Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        468033,
+        3334189
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 6439,
+      "dist_named_stream_m": 193,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 193,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        484460,
+        3333769
+      ],
+      "area_ha": 3.19,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 7803,
+      "dist_named_stream_m": 1209,
+      "nearest_named_stream": "Town Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        477101,
+        3333632
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 6906,
+      "dist_named_stream_m": 22,
+      "nearest_named_stream": "Henderson Branch",
+      "dist_any_flowline_m": 22,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471103,
+        3331646
+      ],
+      "area_ha": 0.61,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 5010,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        485087,
+        3331079
+      ],
+      "area_ha": 1.5,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 5499,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Town Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        469201,
+        3330823
+      ],
+      "area_ha": 0.68,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 3625,
+      "dist_named_stream_m": 1742,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 36,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471961,
+        3329195
+      ],
+      "area_ha": 0.73,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 2627,
+      "dist_named_stream_m": 800,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 170,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        504174,
+        3328949
+      ],
+      "area_ha": 0.53,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 14806,
+      "dist_named_stream_m": 700,
+      "nearest_named_stream": "Bear Creek",
+      "dist_any_flowline_m": 60,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Deciduous forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        466735,
+        3328480
+      ],
+      "area_ha": 0.6,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 550,
+      "dist_named_stream_m": 472,
+      "nearest_named_stream": "Honey Creek",
+      "dist_any_flowline_m": 120,
+      "mainstem_band": "300-1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        459879,
+        3328135
+      ],
+      "area_ha": 0.94,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 2433,
+      "dist_named_stream_m": 1726,
+      "nearest_named_stream": "Bear Creek",
+      "dist_any_flowline_m": 58,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        458350,
+        3326910
+      ],
+      "area_ha": 0.68,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 852,
+      "dist_named_stream_m": 98,
+      "nearest_named_stream": "Bear Creek",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": "300-1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        474684,
+        3326792
+      ],
+      "area_ha": 0.65,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        475949,
+        3326658
+      ],
+      "area_ha": 2.01,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        476583,
+        3326648
+      ],
+      "area_ha": 1.0,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        477379,
+        3326649
+      ],
+      "area_ha": 0.82,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 61,
+      "dist_named_stream_m": 61,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        475349,
+        3326593
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        480307,
+        3326479
+      ],
+      "area_ha": 2.76,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        471516,
+        3326467
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        472745,
+        3326454
+      ],
+      "area_ha": 0.77,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        472380,
+        3326332
+      ],
+      "area_ha": 0.73,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 28,
+      "dist_named_stream_m": 28,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        479494,
+        3326247
+      ],
+      "area_ha": 0.59,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 20,
+      "dist_named_stream_m": 20,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Woody wetlands",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        469910,
+        3326180
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        482159,
+        3326098
+      ],
+      "area_ha": 0.75,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 10,
+      "dist_named_stream_m": 10,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Developed, medium",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        482634,
+        3326025
+      ],
+      "area_ha": 0.7,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        463979,
+        3325535
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 297,
+      "dist_named_stream_m": 297,
+      "nearest_named_stream": "North Fork Guadalupe River",
+      "dist_any_flowline_m": 76,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464972,
+        3325182
+      ],
+      "area_ha": 0.7,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 242,
+      "dist_named_stream_m": 242,
+      "nearest_named_stream": "North Fork Guadalupe River",
+      "dist_any_flowline_m": 173,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        500727,
+        3324425
+      ],
+      "area_ha": 1.01,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 11761,
+      "dist_named_stream_m": 57,
+      "nearest_named_stream": "North Fork Cypress Creek",
+      "dist_any_flowline_m": 57,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        484745,
+        3324329
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 10,
+      "dist_named_stream_m": 10,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Developed, high",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        485443,
+        3323665
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 492,
+      "dist_named_stream_m": 492,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 42,
+      "mainstem_band": "300-1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Developed, medium",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        467279,
+        3323314
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 962,
+      "dist_named_stream_m": 528,
+      "nearest_named_stream": "Tegener Creek",
+      "dist_any_flowline_m": 200,
+      "mainstem_band": "300-1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        472326,
+        3322965
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 3137,
+      "dist_named_stream_m": 402,
+      "nearest_named_stream": "Kelley Creek",
+      "dist_any_flowline_m": 14,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464940,
+        3320988
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "South Fork Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        459778,
+        3320672
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 1452,
+      "dist_named_stream_m": 425,
+      "nearest_named_stream": "Cherry Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491915,
+        3320613
+      ],
+      "area_ha": 0.65,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 2950,
+      "dist_named_stream_m": 753,
+      "nearest_named_stream": "Second Creek",
+      "dist_any_flowline_m": 20,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        502248,
+        3320478
+      ],
+      "area_ha": 0.77,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 8246,
+      "dist_named_stream_m": 36,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 36,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        502424,
+        3320278
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 8032,
+      "dist_named_stream_m": 20,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 20,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        501919,
+        3320228
+      ],
+      "area_ha": 0.58,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 8020,
+      "dist_named_stream_m": 362,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 149,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464086,
+        3320042
+      ],
+      "area_ha": 0.93,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 22,
+      "dist_named_stream_m": 22,
+      "nearest_named_stream": "South Fork Guadalupe River",
+      "dist_any_flowline_m": 22,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        481654,
+        3320067
+      ],
+      "area_ha": 0.56,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 5128,
+      "dist_named_stream_m": 709,
+      "nearest_named_stream": "Marshall Creek",
+      "dist_any_flowline_m": 200,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        502932,
+        3320045
+      ],
+      "area_ha": 0.71,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 7544,
+      "dist_named_stream_m": 41,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 41,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Pasture/hay",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        496670,
+        3319641
+      ],
+      "area_ha": 0.56,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 6387,
+      "dist_named_stream_m": 1252,
+      "nearest_named_stream": "Steel Creek",
+      "dist_any_flowline_m": 396,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        461378,
+        3319421
+      ],
+      "area_ha": 1.45,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "South Fork Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        461904,
+        3319325
+      ],
+      "area_ha": 0.81,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "South Fork Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        489129,
+        3319205
+      ],
+      "area_ha": 0.96,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 28,
+      "dist_named_stream_m": 28,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        506345,
+        3318577
+      ],
+      "area_ha": 1.04,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 4873,
+      "dist_named_stream_m": 837,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 200,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        489719,
+        3318491
+      ],
+      "area_ha": 1.57,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        506513,
+        3318411
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 4747,
+      "dist_named_stream_m": 788,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 383,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        505701,
+        3318002
+      ],
+      "area_ha": 1.36,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 4611,
+      "dist_named_stream_m": 266,
+      "nearest_named_stream": "Cypress Creek",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        489969,
+        3317165
+      ],
+      "area_ha": 2.61,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 226,
+      "dist_named_stream_m": 226,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 226,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Pasture/hay",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        513591,
+        3315597
+      ],
+      "area_ha": 0.61,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 287,
+      "dist_named_stream_m": 287,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 150,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491206,
+        3315218
+      ],
+      "area_ha": 0.69,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 41,
+      "dist_named_stream_m": 41,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 41,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491500,
+        3315121
+      ],
+      "area_ha": 0.9,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 297,
+      "dist_named_stream_m": 297,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 297,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Barren",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491344,
+        3314840
+      ],
+      "area_ha": 1.41,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 36,
+      "dist_named_stream_m": 36,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 36,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491596,
+        3314740
+      ],
+      "area_ha": 1.12,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 153,
+      "dist_named_stream_m": 153,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 153,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491811,
+        3314574
+      ],
+      "area_ha": 1.61,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 206,
+      "dist_named_stream_m": 206,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 206,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Pasture/hay",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491515,
+        3314584
+      ],
+      "area_ha": 0.63,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 50,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        491769,
+        3314355
+      ],
+      "area_ha": 1.34,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 0,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        471852,
+        3313781
+      ],
+      "area_ha": 0.69,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 9465,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Bushwhack Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        473318,
+        3313778
+      ],
+      "area_ha": 0.56,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 10634,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Bushwhack Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        501311,
+        3313364
+      ],
+      "area_ha": 0.62,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 1258,
+      "dist_named_stream_m": 943,
+      "nearest_named_stream": "Bluff Creek",
+      "dist_any_flowline_m": 245,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        493567,
+        3313126
+      ],
+      "area_ha": 1.74,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 210,
+      "dist_named_stream_m": 210,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 210,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Barren",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        496813,
+        3313138
+      ],
+      "area_ha": 0.81,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 10,
+      "dist_named_stream_m": 10,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Woody wetlands",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        507544,
+        3313106
+      ],
+      "area_ha": 1.14,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 120,
+      "dist_named_stream_m": 120,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 120,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Barren",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        493458,
+        3312908
+      ],
+      "area_ha": 0.85,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 50,
+      "dist_named_stream_m": 50,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Barren",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        505529,
+        3312403
+      ],
+      "area_ha": 0.87,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 228,
+      "dist_named_stream_m": 228,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 228,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        505765,
+        3312400
+      ],
+      "area_ha": 0.69,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 28,
+      "dist_named_stream_m": 28,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 28,
+      "mainstem_band": "0-100 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        504119,
+        3311615
+      ],
+      "area_ha": 0.63,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 120,
+      "dist_named_stream_m": 120,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 120,
+      "mainstem_band": "100-300 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        504054,
+        3311103
+      ],
+      "area_ha": 0.72,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 620,
+      "dist_named_stream_m": 620,
+      "nearest_named_stream": "Guadalupe River",
+      "dist_any_flowline_m": 320,
+      "mainstem_band": "300-1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        487813,
+        3311100
+      ],
+      "area_ha": 0.63,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 4909,
+      "dist_named_stream_m": 965,
+      "nearest_named_stream": "Cow Creek",
+      "dist_any_flowline_m": 256,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        462866,
+        3309978
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 7652,
+      "dist_named_stream_m": 336,
+      "nearest_named_stream": "Little Brewington Creek",
+      "dist_any_flowline_m": 221,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        474031,
+        3309858
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 13798,
+      "dist_named_stream_m": 898,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464421,
+        3309752
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 8909,
+      "dist_named_stream_m": 392,
+      "nearest_named_stream": "Rocky Creek",
+      "dist_any_flowline_m": 63,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        462231,
+        3309762
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 7340,
+      "dist_named_stream_m": 1006,
+      "nearest_named_stream": "Little Brewington Creek",
+      "dist_any_flowline_m": 70,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        473078,
+        3309497
+      ],
+      "area_ha": 0.6,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 13450,
+      "dist_named_stream_m": 212,
+      "nearest_named_stream": "Johnson Creek",
+      "dist_any_flowline_m": 212,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        466185,
+        3309143
+      ],
+      "area_ha": 0.79,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 10069,
+      "dist_named_stream_m": 410,
+      "nearest_named_stream": "Rocky Creek",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        475489,
+        3306984
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16944,
+      "dist_named_stream_m": 630,
+      "nearest_named_stream": "Robinson Creek",
+      "dist_any_flowline_m": 120,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        465070,
+        3306726
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 11506,
+      "dist_named_stream_m": 653,
+      "nearest_named_stream": "Brewington Creek",
+      "dist_any_flowline_m": 190,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471834,
+        3305962
+      ],
+      "area_ha": 1.1,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 15465,
+      "dist_named_stream_m": 733,
+      "nearest_named_stream": "Wallace Creek",
+      "dist_any_flowline_m": 72,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        469767,
+        3304936
+      ],
+      "area_ha": 0.73,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 15325,
+      "dist_named_stream_m": 825,
+      "nearest_named_stream": "Rocky Creek",
+      "dist_any_flowline_m": 297,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        499900,
+        3304855
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 6732,
+      "dist_named_stream_m": 1243,
+      "nearest_named_stream": "Little Mason Creek",
+      "dist_any_flowline_m": 112,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471792,
+        3303280
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 17747,
+      "dist_named_stream_m": 773,
+      "nearest_named_stream": "Wallace Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471241,
+        3303070
+      ],
+      "area_ha": 1.05,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 17631,
+      "dist_named_stream_m": 957,
+      "nearest_named_stream": "North Prong Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        475751,
+        3302953
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 19434,
+      "dist_named_stream_m": 1546,
+      "nearest_named_stream": "Benton Creek",
+      "dist_any_flowline_m": 291,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        470335,
+        3302794
+      ],
+      "area_ha": 0.63,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 17522,
+      "dist_named_stream_m": 270,
+      "nearest_named_stream": "North Prong Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        477329,
+        3302650
+      ],
+      "area_ha": 1.57,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 18314,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Benton Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        468390,
+        3302500
+      ],
+      "area_ha": 0.55,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16792,
+      "dist_named_stream_m": 837,
+      "nearest_named_stream": "North Prong Medina River",
+      "dist_any_flowline_m": 430,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        485547,
+        3301261
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 13848,
+      "dist_named_stream_m": 78,
+      "nearest_named_stream": "Myrtle Creek",
+      "dist_any_flowline_m": 78,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        465530,
+        3301169
+      ],
+      "area_ha": 0.63,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 15852,
+      "dist_named_stream_m": 1097,
+      "nearest_named_stream": "Mickle Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        473105,
+        3300168
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 21109,
+      "dist_named_stream_m": 57,
+      "nearest_named_stream": "Hough Creek",
+      "dist_any_flowline_m": 57,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        482768,
+        3300178
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16396,
+      "dist_named_stream_m": 1167,
+      "nearest_named_stream": "Hicks Creek",
+      "dist_any_flowline_m": 256,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        463524,
+        3299879
+      ],
+      "area_ha": 0.62,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 15851,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Mickle Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        467744,
+        3299595
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 18462,
+      "dist_named_stream_m": 810,
+      "nearest_named_stream": "Rhyme Creek",
+      "dist_any_flowline_m": 100,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464903,
+        3299565
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16831,
+      "dist_named_stream_m": 956,
+      "nearest_named_stream": "Rhyme Creek",
+      "dist_any_flowline_m": 36,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        464995,
+        3298303
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 17944,
+      "dist_named_stream_m": 1340,
+      "nearest_named_stream": "Rhyme Creek",
+      "dist_any_flowline_m": 184,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        468215,
+        3298184
+      ],
+      "area_ha": 0.8,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 19811,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Rhyme Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        465224,
+        3297619
+      ],
+      "area_ha": 0.59,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 18646,
+      "dist_named_stream_m": 930,
+      "nearest_named_stream": "Stanford Creek",
+      "dist_any_flowline_m": 70,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        507293,
+        3297540
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 14434,
+      "dist_named_stream_m": 990,
+      "nearest_named_stream": "Privilege Creek",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        467998,
+        3296918
+      ],
+      "area_ha": 0.53,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 20739,
+      "dist_named_stream_m": 130,
+      "nearest_named_stream": "Stanford Creek",
+      "dist_any_flowline_m": 130,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        477682,
+        3296838
+      ],
+      "area_ha": 0.65,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 22248,
+      "dist_named_stream_m": 434,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Herbaceous wetlands",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        510760,
+        3296494
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16324,
+      "dist_named_stream_m": 1612,
+      "nearest_named_stream": "Bear Creek",
+      "dist_any_flowline_m": 50,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        510276,
+        3295810
+      ],
+      "area_ha": 0.8,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 16818,
+      "dist_named_stream_m": 1891,
+      "nearest_named_stream": "Bear Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        475317,
+        3294353
+      ],
+      "area_ha": 0.55,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 25695,
+      "dist_named_stream_m": 1094,
+      "nearest_named_stream": "Elm Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        472695,
+        3292676
+      ],
+      "area_ha": 1.35,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 26928,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Elm Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        470293,
+        3291692
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 26345,
+      "dist_named_stream_m": 191,
+      "nearest_named_stream": "Coalkiln Creek",
+      "dist_any_flowline_m": 191,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        488855,
+        3290546
+      ],
+      "area_ha": 0.51,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 22484,
+      "dist_named_stream_m": 1000,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 10,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        468494,
+        3289825
+      ],
+      "area_ha": 0.57,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27065,
+      "dist_named_stream_m": 121,
+      "nearest_named_stream": "Ryle Creek",
+      "dist_any_flowline_m": 121,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471396,
+        3288401
+      ],
+      "area_ha": 0.5,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 29745,
+      "dist_named_stream_m": 151,
+      "nearest_named_stream": "Simpson Creek",
+      "dist_any_flowline_m": 151,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        473134,
+        3288253
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 30780,
+      "dist_named_stream_m": 248,
+      "nearest_named_stream": "Wright Creek",
+      "dist_any_flowline_m": 248,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        469144,
+        3287866
+      ],
+      "area_ha": 2.12,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 28985,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Ryle Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        469026,
+        3287914
+      ],
+      "area_ha": 0.79,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 28989,
+      "dist_named_stream_m": 45,
+      "nearest_named_stream": "Ryle Creek",
+      "dist_any_flowline_m": 45,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        501091,
+        3286996
+      ],
+      "area_ha": 1.58,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 24541,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Barren",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        469437,
+        3287006
+      ],
+      "area_ha": 0.67,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 30008,
+      "dist_named_stream_m": 392,
+      "nearest_named_stream": "Ryle Creek",
+      "dist_any_flowline_m": 73,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        501823,
+        3286511
+      ],
+      "area_ha": 0.7,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 25180,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Barren",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        493507,
+        3286341
+      ],
+      "area_ha": 2.06,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 25860,
+      "dist_named_stream_m": 1154,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 518,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Cultivated crops",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        502612,
+        3286405
+      ],
+      "area_ha": 0.54,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 25282,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        493353,
+        3286271
+      ],
+      "area_ha": 0.64,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 26056,
+      "dist_named_stream_m": 1141,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 490,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "300-1000 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        471629,
+        3285739
+      ],
+      "area_ha": 0.55,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 32154,
+      "dist_named_stream_m": 640,
+      "nearest_named_stream": "Simpson Creek",
+      "dist_any_flowline_m": 70,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "300-1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Evergreen forest",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        494644,
+        3285563
+      ],
+      "area_ha": 4.02,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 26374,
+      "dist_named_stream_m": 187,
+      "nearest_named_stream": "San Julian Creek",
+      "dist_any_flowline_m": 187,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "100-300 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Grassland/herbaceous",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        482636,
+        3285534
+      ],
+      "area_ha": 0.67,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 29127,
+      "dist_named_stream_m": 1660,
+      "nearest_named_stream": "Indian Creek",
+      "dist_any_flowline_m": 22,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    },
+    {
+      "centroid_utm14n": [
+        470839,
+        3285483
+      ],
+      "area_ha": 0.79,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 31953,
+      "dist_named_stream_m": 0,
+      "nearest_named_stream": "Simpson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        470658,
+        3285438
+      ],
+      "area_ha": 0.82,
+      "cross_track_agree": true,
+      "dist_guadalupe_m": 31917,
+      "dist_named_stream_m": 45,
+      "nearest_named_stream": "Simpson Creek",
+      "dist_any_flowline_m": 0,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": "0-100 m",
+      "any_flowline_band": "0-100 m",
+      "waterbody_within_30m": true,
+      "dominant_nlcd": "Open water",
+      "context_group": "off corridor, water"
+    },
+    {
+      "centroid_utm14n": [
+        490067,
+        3285451
+      ],
+      "area_ha": 0.52,
+      "cross_track_agree": false,
+      "dist_guadalupe_m": 27269,
+      "dist_named_stream_m": 2388,
+      "nearest_named_stream": "Medina River",
+      "dist_any_flowline_m": 295,
+      "mainstem_band": ">1000 m",
+      "named_stream_band": ">1000 m",
+      "any_flowline_band": "100-300 m",
+      "waterbody_within_30m": false,
+      "dominant_nlcd": "Shrub/scrub",
+      "context_group": "off corridor, land"
+    }
+  ]
+}

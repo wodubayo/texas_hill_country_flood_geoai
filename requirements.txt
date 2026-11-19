@@ -1,0 +1,16 @@
+pandas
+numpy
+geopandas
+rasterio
+shapely
+fiona
+matplotlib
+seaborn
+scikit-learn
+jupyter
+requests
+pyproj
+pystac-client
+planetary-computer
+asf_search
+pytest

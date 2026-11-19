@@ -1,0 +1,49 @@
+{
+  "schema_version": 3,
+  "event": {
+    "id": "TX_HILL_COUNTRY_2025_07",
+    "name": "July 2025 Central Texas Hill Country flood",
+    "event_date_local": "2025-07-04",
+    "timezone": "America/Chicago"
+  },
+  "aoi": {
+    "status": "provisional",
+    "description": "Working search AOI: Kerr County (GEOID 48265) buffered 10 km. Replace with a hydrologic (HUC) boundary after Phase 1 coverage review.",
+    "county_geoids": ["48265"],
+    "buffer_m": 10000,
+    "path": "data/interim/boundaries/aoi_provisional.geojson"
+  },
+  "processing": {
+    "sensor": "Sentinel-1 IW GRDH",
+    "polarizations": ["VH", "VV"],
+    "pixel_spacing_m": 10,
+    "target_crs": "EPSG:32614",
+    "dem": "Copernicus 30m Global DEM",
+    "search_start_utc": "2025-06-15T00:00:00Z",
+    "search_end_utc": "2025-07-30T00:00:00Z"
+  },
+  "scene_sets": {
+    "ro107": {
+      "status": "selected",
+      "priority": "primary",
+      "rationale": "Ascending RO107. Post 2025-07-10 19:35 CDT falls in the low-flow gap between the 4 July flood and the 13-15 July second pulse (USGS: Hunt 194 cfs, Kerrville 209 cfs), so it is the cleaner view of 4 July persistent change. Covers 61% of the buffered AOI, including the whole Hunt-Comfort corridor. Pre 2025-06-28 and control 2025-06-16 at baseflow. See docs/acquisition/sentinel1_selection.md.",
+      "control": "S1A_IW_GRDH_1SDV_20250617T003513_20250617T003538_059679_07690F_55A7",
+      "pre": "S1A_IW_GRDH_1SDV_20250629T003512_20250629T003537_059854_076F22_367F",
+      "event": null,
+      "post": "S1A_IW_GRDH_1SDV_20250711T003512_20250711T003537_060029_07752C_40BE"
+    },
+    "ro005": {
+      "status": "selected",
+      "priority": "secondary",
+      "rationale": "Ascending RO005, full AOI coverage. The granule dated 2025-07-04 was sensed 2025-07-03 19:43 CDT, before flood onset, so it is the pre scene. Post 2025-07-15 19:43 CDT is ~1 day after the 13-15 July second pulse peak (Kerrville 1,990 cfs at sensing), so change mixes 4 July after-effects with second-event water and soil wetting. Control 2025-06-21. Processed in tx_trial_01.",
+      "control": "S1A_IW_GRDH_1SDV_20250622T004326_20250622T004351_059752_076B95_0EE8",
+      "pre": "S1A_IW_GRDH_1SDV_20250704T004325_20250704T004350_059927_0771B0_35D4",
+      "event": null,
+      "post": "S1A_IW_GRDH_1SDV_20250716T004324_20250716T004349_060102_0777B4_7382"
+    }
+  },
+  "validation": {
+    "status": "not_started",
+    "candidate_products_are_exploratory": true
+  }
+}

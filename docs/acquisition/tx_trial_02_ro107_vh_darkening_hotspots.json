@@ -1,0 +1,302 @@
+{
+  "generated_utc": "2026-11-17T21:06:13.300039+00:00",
+  "run_id": "tx_trial_02_ro107",
+  "status": "exploratory review aid; not a flood map; parameters are uncalibrated review settings",
+  "parameters": {
+    "smooth_px": 5,
+    "drop_db": -3.0,
+    "stable_db": 1.5,
+    "min_pixels": 50
+  },
+  "flagged_pixels": 227050,
+  "clusters_kept": 165,
+  "control_to_pre_pixels_at_same_drop": 1301129,
+  "note": "control_to_pre_pixels_at_same_drop counts pixels that darkened by the same amount with no flood in between (rough false-change reference).",
+  "top_clusters": [
+    {
+      "pixels": 402,
+      "area_ha": 4.02,
+      "length_m": 430,
+      "median_change_db": -4.25,
+      "median_pre_db": -17.84,
+      "median_post_db": -22.02,
+      "centroid_utm14n": [
+        494644,
+        3285563
+      ],
+      "centroid_lonlat": [
+        -99.05536,
+        29.70016
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 27.1,
+      "rank": 1
+    },
+    {
+      "pixels": 344,
+      "area_ha": 3.44,
+      "length_m": 290,
+      "median_change_db": -6.23,
+      "median_pre_db": -20.59,
+      "median_post_db": -26.84,
+      "centroid_utm14n": [
+        511744,
+        3338236
+      ],
+      "centroid_lonlat": [
+        -98.87802,
+        30.17547
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 23.1,
+      "rank": 2
+    },
+    {
+      "pixels": 319,
+      "area_ha": 3.19,
+      "length_m": 290,
+      "median_change_db": -7.41,
+      "median_pre_db": -17.96,
+      "median_post_db": -25.48,
+      "centroid_utm14n": [
+        484460,
+        3333769
+      ],
+      "centroid_lonlat": [
+        -99.16134,
+        30.13512
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 9.7,
+      "rank": 3
+    },
+    {
+      "pixels": 276,
+      "area_ha": 2.76,
+      "length_m": 520,
+      "median_change_db": -4.95,
+      "median_pre_db": -19.53,
+      "median_post_db": -24.82,
+      "centroid_utm14n": [
+        480307,
+        3326479
+      ],
+      "centroid_lonlat": [
+        -99.20432,
+        30.06927
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 3.2,
+      "rank": 4
+    },
+    {
+      "pixels": 261,
+      "area_ha": 2.61,
+      "length_m": 310,
+      "median_change_db": -4.16,
+      "median_pre_db": -19.79,
+      "median_post_db": -24.17,
+      "centroid_utm14n": [
+        489969,
+        3317165
+      ],
+      "centroid_lonlat": [
+        -99.10399,
+        29.98534
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 7.7,
+      "rank": 5
+    },
+    {
+      "pixels": 212,
+      "area_ha": 2.12,
+      "length_m": 330,
+      "median_change_db": -6.26,
+      "median_pre_db": -16.92,
+      "median_post_db": -23.85,
+      "centroid_utm14n": [
+        469144,
+        3287866
+      ],
+      "centroid_lonlat": [
+        -99.31903,
+        29.72057
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 36.9,
+      "rank": 6
+    },
+    {
+      "pixels": 206,
+      "area_ha": 2.06,
+      "length_m": 290,
+      "median_change_db": -5.13,
+      "median_pre_db": -16.66,
+      "median_post_db": -21.84,
+      "centroid_utm14n": [
+        493507,
+        3286341
+      ],
+      "centroid_lonlat": [
+        -99.06713,
+        29.70718
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.4,
+      "rank": 7
+    },
+    {
+      "pixels": 204,
+      "area_ha": 2.04,
+      "length_m": 280,
+      "median_change_db": -5.99,
+      "median_pre_db": -20.68,
+      "median_post_db": -26.56,
+      "centroid_utm14n": [
+        506139,
+        3342966
+      ],
+      "centroid_lonlat": [
+        -98.93621,
+        30.2182
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 27.3,
+      "rank": 8
+    },
+    {
+      "pixels": 201,
+      "area_ha": 2.01,
+      "length_m": 270,
+      "median_change_db": -4.58,
+      "median_pre_db": -17.39,
+      "median_post_db": -22.39,
+      "centroid_utm14n": [
+        475949,
+        3326658
+      ],
+      "centroid_lonlat": [
+        -99.24954,
+        30.07081
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 1.5,
+      "rank": 9
+    },
+    {
+      "pixels": 174,
+      "area_ha": 1.74,
+      "length_m": 190,
+      "median_change_db": -5.38,
+      "median_pre_db": -18.4,
+      "median_post_db": -23.6,
+      "centroid_utm14n": [
+        493567,
+        3313126
+      ],
+      "centroid_lonlat": [
+        -99.06667,
+        29.94891
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 3.0,
+      "rank": 10
+    },
+    {
+      "pixels": 163,
+      "area_ha": 1.63,
+      "length_m": 300,
+      "median_change_db": -5.06,
+      "median_pre_db": -22.52,
+      "median_post_db": -27.21,
+      "centroid_utm14n": [
+        493730,
+        3358983
+      ],
+      "centroid_lonlat": [
+        -99.06525,
+        30.36274
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 35.7,
+      "rank": 11
+    },
+    {
+      "pixels": 161,
+      "area_ha": 1.61,
+      "length_m": 250,
+      "median_change_db": -5.32,
+      "median_pre_db": -17.06,
+      "median_post_db": -22.62,
+      "centroid_utm14n": [
+        491811,
+        3314574
+      ],
+      "centroid_lonlat": [
+        -99.08488,
+        29.96197
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.1,
+      "rank": 12
+    },
+    {
+      "pixels": 158,
+      "area_ha": 1.58,
+      "length_m": 290,
+      "median_change_db": -4.0,
+      "median_pre_db": -12.79,
+      "median_post_db": -17.25,
+      "centroid_utm14n": [
+        501091,
+        3286996
+      ],
+      "centroid_lonlat": [
+        -98.98872,
+        29.71311
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.0,
+      "rank": 13
+    },
+    {
+      "pixels": 157,
+      "area_ha": 1.57,
+      "length_m": 230,
+      "median_change_db": -4.94,
+      "median_pre_db": -20.86,
+      "median_post_db": -26.43,
+      "centroid_utm14n": [
+        489719,
+        3318491
+      ],
+      "centroid_lonlat": [
+        -99.10659,
+        29.9973
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 6.4,
+      "rank": 14
+    },
+    {
+      "pixels": 157,
+      "area_ha": 1.57,
+      "length_m": 190,
+      "median_change_db": -7.35,
+      "median_pre_db": -17.14,
+      "median_post_db": -24.57,
+      "centroid_utm14n": [
+        477329,
+        3302650
+      ],
+      "centroid_lonlat": [
+        -99.23472,
+        29.85418
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 21.6,
+      "rank": 15
+    }
+  ]
+}

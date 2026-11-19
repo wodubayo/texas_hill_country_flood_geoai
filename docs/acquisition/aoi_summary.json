@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-11-17T02:39:54.343042+00:00",
+  "aoi_path": "data/interim/boundaries/aoi_provisional.geojson",
+  "status": "provisional",
+  "source": "data/raw/boundaries/cb_2024_us_county_500k.zip",
+  "counties": [
+    {
+      "GEOID": "48265",
+      "NAME": "Kerr",
+      "STATE_NAME": "Texas"
+    }
+  ],
+  "buffer_m": 10000,
+  "area_km2": 5768.61,
+  "bounds_wgs84": [
+    -99.861365,
+    29.691163,
+    -98.814286,
+    30.380929
+  ],
+  "area_crs": "EPSG:32614"
+}

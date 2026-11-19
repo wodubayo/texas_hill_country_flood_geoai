@@ -1,0 +1,1024 @@
+{
+  "generated_utc": "2026-11-17T21:16:27.270290+00:00",
+  "primary_run": "tx_trial_02_ro107",
+  "secondary_run": "tx_trial_01",
+  "status": "exploratory; cross-track agreement is supporting evidence, not validation",
+  "parameters": {
+    "smooth_px": 5,
+    "drop_db": -3.0,
+    "stable_db": 1.5,
+    "min_pixels": 50,
+    "tolerance_px": 3
+  },
+  "scene_stats": {
+    "tx_trial_02_ro107": {
+      "median_pre_to_post_db": 0.19,
+      "pct_darker_3db_pre_to_post": 1.09,
+      "pct_brighter_3db_pre_to_post": 4.23,
+      "pct_darker_3db_control_to_pre": 2.88
+    },
+    "tx_trial_01": {
+      "median_pre_to_post_db": 0.76,
+      "pct_darker_3db_pre_to_post": 0.19,
+      "pct_brighter_3db_pre_to_post": 6.44,
+      "pct_darker_3db_control_to_pre": 2.34
+    }
+  },
+  "primary_clusters": 165,
+  "primary_clusters_observed_by_secondary": 163,
+  "agreeing_clusters": 66,
+  "chance_area_fraction": 0.0065,
+  "chance_note": "Fraction of jointly observed area within tolerance of any secondary flag; a randomly placed point would agree this often (clusters have extent, so their true chance rate is somewhat higher).",
+  "agreeing": [
+    {
+      "area_ha": 4.02,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        494644,
+        3285563
+      ],
+      "centroid_lonlat": [
+        -99.05536,
+        29.70016
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 27.1
+    },
+    {
+      "area_ha": 3.44,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        511744,
+        3338236
+      ],
+      "centroid_lonlat": [
+        -98.87802,
+        30.17547
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 23.1
+    },
+    {
+      "area_ha": 3.19,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        484460,
+        3333769
+      ],
+      "centroid_lonlat": [
+        -99.16134,
+        30.13512
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 9.7
+    },
+    {
+      "area_ha": 2.76,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        480307,
+        3326479
+      ],
+      "centroid_lonlat": [
+        -99.20432,
+        30.06927
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 3.2
+    },
+    {
+      "area_ha": 2.61,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        489969,
+        3317165
+      ],
+      "centroid_lonlat": [
+        -99.10399,
+        29.98534
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 7.7
+    },
+    {
+      "area_ha": 2.12,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        469144,
+        3287866
+      ],
+      "centroid_lonlat": [
+        -99.31903,
+        29.72057
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 36.9
+    },
+    {
+      "area_ha": 2.06,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        493507,
+        3286341
+      ],
+      "centroid_lonlat": [
+        -99.06713,
+        29.70718
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.4
+    },
+    {
+      "area_ha": 2.01,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        475949,
+        3326658
+      ],
+      "centroid_lonlat": [
+        -99.24954,
+        30.07081
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 1.5
+    },
+    {
+      "area_ha": 1.74,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        493567,
+        3313126
+      ],
+      "centroid_lonlat": [
+        -99.06667,
+        29.94891
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 3.0
+    },
+    {
+      "area_ha": 1.61,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491811,
+        3314574
+      ],
+      "centroid_lonlat": [
+        -99.08488,
+        29.96197
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.1
+    },
+    {
+      "area_ha": 1.58,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        501091,
+        3286996
+      ],
+      "centroid_lonlat": [
+        -98.98872,
+        29.71311
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.0
+    },
+    {
+      "area_ha": 1.57,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        489719,
+        3318491
+      ],
+      "centroid_lonlat": [
+        -99.10659,
+        29.9973
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 6.4
+    },
+    {
+      "area_ha": 1.57,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        477329,
+        3302650
+      ],
+      "centroid_lonlat": [
+        -99.23472,
+        29.85418
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 21.6
+    },
+    {
+      "area_ha": 1.5,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        485087,
+        3331079
+      ],
+      "centroid_lonlat": [
+        -99.1548,
+        30.11085
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 7.2
+    },
+    {
+      "area_ha": 1.45,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        461378,
+        3319421
+      ],
+      "centroid_lonlat": [
+        -99.40047,
+        30.00513
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 9.6
+    },
+    {
+      "area_ha": 1.42,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        456886,
+        3346809
+      ],
+      "centroid_lonlat": [
+        -99.44816,
+        30.25213
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 23.0
+    },
+    {
+      "area_ha": 1.41,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491344,
+        3314840
+      ],
+      "centroid_lonlat": [
+        -99.08971,
+        29.96436
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.7
+    },
+    {
+      "area_ha": 1.35,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        472695,
+        3292676
+      ],
+      "centroid_lonlat": [
+        -99.28244,
+        29.76407
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 31.1
+    },
+    {
+      "area_ha": 1.34,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491769,
+        3314355
+      ],
+      "centroid_lonlat": [
+        -99.0853,
+        29.95999
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.1
+    },
+    {
+      "area_ha": 1.14,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        507544,
+        3313106
+      ],
+      "centroid_lonlat": [
+        -98.92182,
+        29.94872
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 2.7
+    },
+    {
+      "area_ha": 1.12,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491596,
+        3314740
+      ],
+      "centroid_lonlat": [
+        -99.08711,
+        29.96346
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.4
+    },
+    {
+      "area_ha": 1.05,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        471241,
+        3303070
+      ],
+      "centroid_lonlat": [
+        -99.29776,
+        29.85784
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 23.8
+    },
+    {
+      "area_ha": 1.0,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        476583,
+        3326648
+      ],
+      "centroid_lonlat": [
+        -99.24296,
+        30.07073
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 1.0
+    },
+    {
+      "area_ha": 0.96,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        489129,
+        3319205
+      ],
+      "centroid_lonlat": [
+        -99.11272,
+        30.00374
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 5.5
+    },
+    {
+      "area_ha": 0.93,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        464086,
+        3320042
+      ],
+      "centroid_lonlat": [
+        -99.37241,
+        30.01081
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 7.5
+    },
+    {
+      "area_ha": 0.9,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491500,
+        3315121
+      ],
+      "centroid_lonlat": [
+        -99.0881,
+        29.9669
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.6
+    },
+    {
+      "area_ha": 0.87,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        505529,
+        3312403
+      ],
+      "centroid_lonlat": [
+        -98.9427,
+        29.94238
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 4.6
+    },
+    {
+      "area_ha": 0.86,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        506399,
+        3345762
+      ],
+      "centroid_lonlat": [
+        -98.93349,
+        30.24343
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 29.5
+    },
+    {
+      "area_ha": 0.85,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        478001,
+        3336633
+      ],
+      "centroid_lonlat": [
+        -99.22846,
+        30.16086
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 9.3
+    },
+    {
+      "area_ha": 0.85,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        493458,
+        3312908
+      ],
+      "centroid_lonlat": [
+        -99.06779,
+        29.94694
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 3.1
+    },
+    {
+      "area_ha": 0.83,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        509714,
+        3350893
+      ],
+      "centroid_lonlat": [
+        -98.89899,
+        30.28971
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 35.5
+    },
+    {
+      "area_ha": 0.82,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        477379,
+        3326649
+      ],
+      "centroid_lonlat": [
+        -99.23471,
+        30.07076
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 0.7
+    },
+    {
+      "area_ha": 0.82,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        470658,
+        3285438
+      ],
+      "centroid_lonlat": [
+        -99.30331,
+        29.6987
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 37.5
+    },
+    {
+      "area_ha": 0.81,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        461904,
+        3319325
+      ],
+      "centroid_lonlat": [
+        -99.395,
+        30.00428
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 9.4
+    },
+    {
+      "area_ha": 0.81,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        496813,
+        3313138
+      ],
+      "centroid_lonlat": [
+        -99.03302,
+        29.94903
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 0.6
+    },
+    {
+      "area_ha": 0.8,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        468215,
+        3298184
+      ],
+      "centroid_lonlat": [
+        -99.32894,
+        29.81367
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 28.4
+    },
+    {
+      "area_ha": 0.79,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        469026,
+        3287914
+      ],
+      "centroid_lonlat": [
+        -99.32026,
+        29.72101
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 37.0
+    },
+    {
+      "area_ha": 0.79,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        470839,
+        3285483
+      ],
+      "centroid_lonlat": [
+        -99.30144,
+        29.69911
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 37.4
+    },
+    {
+      "area_ha": 0.77,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        472745,
+        3326454
+      ],
+      "centroid_lonlat": [
+        -99.28278,
+        30.0689
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 4.6
+    },
+    {
+      "area_ha": 0.76,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        463766,
+        3335716
+      ],
+      "centroid_lonlat": [
+        -99.37626,
+        30.15225
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 10.0
+    },
+    {
+      "area_ha": 0.75,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        482159,
+        3326098
+      ],
+      "centroid_lonlat": [
+        -99.1851,
+        30.06586
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 4.8
+    },
+    {
+      "area_ha": 0.73,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        472380,
+        3326332
+      ],
+      "centroid_lonlat": [
+        -99.28657,
+        30.06779
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 4.6
+    },
+    {
+      "area_ha": 0.7,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        482634,
+        3326025
+      ],
+      "centroid_lonlat": [
+        -99.18017,
+        30.06521
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 4.4
+    },
+    {
+      "area_ha": 0.7,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        501823,
+        3286511
+      ],
+      "centroid_lonlat": [
+        -98.98115,
+        29.70873
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.6
+    },
+    {
+      "area_ha": 0.69,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491206,
+        3315218
+      ],
+      "centroid_lonlat": [
+        -99.09115,
+        29.96778
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.9
+    },
+    {
+      "area_ha": 0.69,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        505765,
+        3312400
+      ],
+      "centroid_lonlat": [
+        -98.94026,
+        29.94236
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 4.4
+    },
+    {
+      "area_ha": 0.65,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        474684,
+        3326792
+      ],
+      "centroid_lonlat": [
+        -99.26268,
+        30.072
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 2.6
+    },
+    {
+      "area_ha": 0.65,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        477682,
+        3296838
+      ],
+      "centroid_lonlat": [
+        -99.23094,
+        29.80173
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 24.6
+    },
+    {
+      "area_ha": 0.64,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        493353,
+        3286271
+      ],
+      "centroid_lonlat": [
+        -99.06871,
+        29.70655
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.5
+    },
+    {
+      "area_ha": 0.63,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        491515,
+        3314584
+      ],
+      "centroid_lonlat": [
+        -99.08795,
+        29.96206
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 5.4
+    },
+    {
+      "area_ha": 0.63,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        470335,
+        3302794
+      ],
+      "centroid_lonlat": [
+        -99.30713,
+        29.85533
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 23.9
+    },
+    {
+      "area_ha": 0.63,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        465530,
+        3301169
+      ],
+      "centroid_lonlat": [
+        -99.35682,
+        29.84053
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 25.5
+    },
+    {
+      "area_ha": 0.62,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        463524,
+        3299879
+      ],
+      "centroid_lonlat": [
+        -99.37755,
+        29.82884
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 27.1
+    },
+    {
+      "area_ha": 0.61,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        471103,
+        3331646
+      ],
+      "centroid_lonlat": [
+        -99.29996,
+        30.11572
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 6.0
+    },
+    {
+      "area_ha": 0.61,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        513591,
+        3315597
+      ],
+      "centroid_lonlat": [
+        -98.85913,
+        29.97115
+      ],
+      "nearest_landmark": "Comfort",
+      "landmark_distance_km": 4.4
+    },
+    {
+      "area_ha": 0.59,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        479494,
+        3326247
+      ],
+      "centroid_lonlat": [
+        -99.21275,
+        30.06717
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 2.5
+    },
+    {
+      "area_ha": 0.57,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        475349,
+        3326593
+      ],
+      "centroid_lonlat": [
+        -99.25577,
+        30.07021
+      ],
+      "nearest_landmark": "Ingram",
+      "landmark_distance_km": 2.0
+    },
+    {
+      "area_ha": 0.56,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        500871,
+        3347094
+      ],
+      "centroid_lonlat": [
+        -98.99095,
+        30.25547
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 27.2
+    },
+    {
+      "area_ha": 0.56,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        473318,
+        3313778
+      ],
+      "centroid_lonlat": [
+        -99.27653,
+        29.95452
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 14.0
+    },
+    {
+      "area_ha": 0.55,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        475317,
+        3294353
+      ],
+      "centroid_lonlat": [
+        -99.25536,
+        29.77925
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 28.0
+    },
+    {
+      "area_ha": 0.55,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        471629,
+        3285739
+      ],
+      "centroid_lonlat": [
+        -99.29328,
+        29.70144
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 36.6
+    },
+    {
+      "area_ha": 0.54,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        502612,
+        3286405
+      ],
+      "centroid_lonlat": [
+        -98.973,
+        29.70777
+      ],
+      "nearest_landmark": "Center Point",
+      "landmark_distance_km": 26.9
+    },
+    {
+      "area_ha": 0.52,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        469910,
+        3326180
+      ],
+      "centroid_lonlat": [
+        -99.31219,
+        30.06636
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 2.1
+    },
+    {
+      "area_ha": 0.52,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        464940,
+        3320988
+      ],
+      "centroid_lonlat": [
+        -99.36358,
+        30.01938
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 6.3
+    },
+    {
+      "area_ha": 0.52,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        471792,
+        3303280
+      ],
+      "centroid_lonlat": [
+        -99.29206,
+        29.85975
+      ],
+      "nearest_landmark": "Hunt",
+      "landmark_distance_km": 23.7
+    },
+    {
+      "area_ha": 0.51,
+      "observed_by_secondary": true,
+      "cross_track_agree": true,
+      "centroid_utm14n": [
+        484745,
+        3324329
+      ],
+      "centroid_lonlat": [
+        -99.15825,
+        30.04993
+      ],
+      "nearest_landmark": "Kerrville",
+      "landmark_distance_km": 1.8
+    }
+  ]
+}
